@@ -132,6 +132,9 @@ button {
 
 
 
+
+/*** FRONT PAGE ***/
+
 .box {
 	border: 1px solid #AAA;
 	border-radius: 7px;
@@ -156,7 +159,77 @@ button {
 	float: right;
 }
 
-@media screen and (max-width: 600px) {
+#main.front {
+	padding: 0;
+	overflow: auto;
+	text-align: center;
+}
+
+.front-partiokasvatus {
+	padding: 7px;
+	font-size: 20px;
+	background: #253764;
+}
+
+.ikbox {
+	width: 20%;
+	float: left;
+}
+
+#main.front a {
+	color: #FFF;
+}
+
+.ikbox.sudenpennut {
+	background: #f5ea2e;
+}
+#main.front .ikbox.sudenpennut a {
+	color: black;
+}
+.ikbox.seikkailijat {
+
+	background: #D4791E;
+}
+.ikbox.tarpojat {
+	background: #5e0f75;
+}
+.ikbox.samoajat {
+	background: #33652e;
+}
+.ikbox.vaeltajat {
+	background: #6e470a;
+}
+
+.ikbox .row a, .ikbox .row.empty {
+	display: block;
+	padding: 7px 0;
+	border-top: 0px solid #FFF;
+}
+
+.ikbox .row.title a {
+	font-size: 20px;
+	border-top: 0;
+}
+
+.ikbox .image {
+	height: 100px;
+}
+
+.ikbox img {
+	max-height: 80px;
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 1015px) {
+	.ikbox {
+		width: 50%;
+	}
+	.ikbox.tarpojat {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 620px) {
 	#tapaht, #ajankoht {
 		width: 100%;
 		float: none;
@@ -166,6 +239,10 @@ button {
 	#front-container {
 		height: auto;
 		margin-bottom: 0;
+	}
+
+	.ikbox {
+		width: 100%;
 	}
 }
 
