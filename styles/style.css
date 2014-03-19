@@ -72,6 +72,10 @@ h1, h2 {
 	font-weight: normal;
 }
 
+h3 {
+	margin-top: 0px;
+}
+
 button {
 	font-size: 14px;
 	color: white;
@@ -282,4 +286,44 @@ button {
 	}
 }
 
+/*** SUDENPENNUT FRONT PAGE ***/
 
+
+
+.centered{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#iknav {
+	background: #f5ea2e;
+	width: 230px;
+	padding: 1em;
+	float: left;
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.sudenpennut {
+	padding: 1em;
+	background: #f5f877;
+}
+
+#activities {
+	width: 100%;
+	float: left;
+}
+
+.activity {
+	width: 100%;
+	float: left;
+}
+
+.leftpic {
+	width: 100px;
+	float: left;
+}
+
+#ikcontent {
+	width: 100%;
+}
