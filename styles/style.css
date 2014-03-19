@@ -255,7 +255,7 @@ button {
 }
 
 @media screen and (max-width: 620px) {
-	#tapaht, #ajankoht {
+	#tapaht, #ajankoht, #main {
 		width: 100%;
 		float: none;
 		margin-bottom: 40px;
@@ -266,7 +266,17 @@ button {
 		margin-bottom: 0;
 	}
 
-	.ikbox {
+	#main .ikbox {
+		width: 50%;
+	}
+
+	#main .ikbox.vaeltajat {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#main .ikbox {
 		width: 100%;
 	}
 }
