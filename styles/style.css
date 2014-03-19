@@ -288,8 +288,6 @@ button {
 
 /*** SUDENPENNUT FRONT PAGE ***/
 
-
-
 .centered{
 	text-align: center;
 	margin-bottom: 15px;
@@ -304,7 +302,7 @@ button {
 	margin-left: 0px;
 }
 
-.sudenpennut {
+.sudenpennutnav {
 	padding: 1em;
 	background: #f5f877;
 }
