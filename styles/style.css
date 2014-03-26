@@ -74,7 +74,7 @@ h1, h2 {
 }
 
 h3 {
-	margin-top: 0px;
+	margin-top: 2px;
 }
 
 button {
@@ -99,7 +99,7 @@ button {
 
 #content {
 	float: right;
-	width: 68%;
+	width: 69%;
 }
 
 #breadcrumb {
@@ -294,28 +294,43 @@ button {
 	margin-bottom: 15px;
 }
 
-#iknav {
-	background: #f5ea2e;
-	width: 230px;
+.iknav {
+	width: 200px;
 	padding: 1em;
-	float: left;
+	float: right;
 	margin: 15px;
-	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -3em;
+	margin-bottom: 3px;
+	margin-left: 3px;
 }
 
 .sudenpennutnav {
-	padding: 1em;
-	background: #f5f877;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #f5ea2e;
+	background: #f9faa8;
 }
 
 #activities {
 	width: 100%;
-	float: left;
+}
+
+.firstheading {
+	clear: both;
 }
 
 .activity {
-	width: 100%;
-	float: left;
+	border-color: #BBB;
+	border-style: solid;
+	border-width: 2px;
+	border-top-width: 0px;
+	padding: 4px;
+	overflow: auto;
+}
+
+.activity.first {
+	border-top-width: 2px;
 }
 
 .leftpic {
@@ -424,4 +439,12 @@ button {
 
 }
 
+.activity.actsud:nth-child(odd)
+{
+background: #f9faa8;
+}
 
+.activity:nth-child(even)
+{
+background: #fff;
+}
