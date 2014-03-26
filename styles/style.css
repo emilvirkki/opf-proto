@@ -38,7 +38,7 @@ body {
 	left: 0;
 	top: 50px;
 	width: 200px;
-	font-size: 14px;
+	font-size: 12px;
 	background: #999;
 	line-height: 2em;
 	box-shadow: 0 0 5px #000;
@@ -62,7 +62,8 @@ body {
 	margin: 0 auto 40px;
 	border: 1px solid #AAA;
 	border-radius: 7px;
-	font-size: 14px;
+	font-size: 12px;
+	line-height: 1.5em;
 	max-width: 90%;
 	background: #FFF;
 	overflow: auto;
@@ -250,7 +251,7 @@ button {
 	margin-top: 15px;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 850px) {
 	.ikbox {
 		width: 33.33%;
 	}
