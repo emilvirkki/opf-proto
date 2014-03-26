@@ -295,7 +295,7 @@ button {
 }
 
 #iknav {
-	background: #f5ea2e;
+	/*background: #f5ea2e;*/
 	width: 230px;
 	padding: 1em;
 	float: left;
@@ -304,7 +304,8 @@ button {
 }
 
 .sudenpennutnav {
-	padding: 1em;
+	border-width: 15px;
+	border-color: #f5ea2e;
 	background: #f5f877;
 }
 
