@@ -329,6 +329,16 @@ button {
 	overflow: auto;
 }
 
+.activity.actsud:nth-child(odd)
+{
+background: #f9faa8;
+}
+
+.activity:nth-child(even)
+{
+background: #fff;
+}
+
 .activity.first {
 	border-top-width: 2px;
 }
@@ -439,12 +449,3 @@ button {
 
 }
 
-.activity.actsud:nth-child(odd)
-{
-background: #f9faa8;
-}
-
-.activity:nth-child(even)
-{
-background: #fff;
-}
