@@ -316,6 +316,27 @@ button {
 	width: 100%;
 }
 
+#activitiesleft {
+	width: 49%;
+	float: left;
+}
+
+#activitiesright {
+	width: 49%;
+	float: right;
+}
+
+@media screen and (max-width: 900px) {
+	#activitiesleft {
+		width: 100%;
+	}
+	
+	#activitiesright {
+		width: 100%;
+		float: left;
+	}
+}
+
 .firstheading {
 	clear: both;
 }
