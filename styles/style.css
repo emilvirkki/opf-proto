@@ -166,6 +166,18 @@ button {
 	content: url(slide_down.png);
 }
 
+.collapsible.default-closed .content {
+	display: none;
+}
+
+.collapsible.default-closed .heading::before {
+	content: url(slide_down.png);
+}
+
+.collapsible.default-closed.collapsed .heading::before {
+	content: url(slide_up.png);
+}
+
 
 
 /*********************** SPECIFIC STYLES ***********************/

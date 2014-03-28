@@ -46,7 +46,7 @@
 				<h3>Sanahaku</h3>
 				<input type="text" class="word-search">
 
-				<div class="collapsible">
+				<div class="collapsible default-closed">
 					<h3 class="heading">Ikäkausi</h3>
 					<div class="content">
 						<div id="tree">
@@ -241,7 +241,7 @@
 					</div>
 				</div>
 
-				<div class="collapsible">
+				<div class="collapsible default-closed">
 					<h3 class="heading">Taitoalue</h3>
 					<div class="content">
 						<ul class="checkboxes">
@@ -280,7 +280,7 @@
 					</div>
 				</div>
 
-				<div class="collapsible">
+				<div class="collapsible default-closed">
 					<h3 class="heading">Tagit</h3>
 					<div class="content">
 						<ul class="checkboxes">
@@ -370,7 +370,14 @@
 					$('#tree ul').tree('collapse', $(this).parent());
 				}
 			})
-			$('#tree ul').tree();
+			$('#tree ul').tree({
+				onCheck: {
+					ancestors: 'uncheck'
+				},
+				onUncheck: {
+					ancestors: 'uncheck'
+				}
+			});
 
 			$('.checkboxes li').prepend('<input type="checkbox">');
 			$('.checkboxes').tree()	;
