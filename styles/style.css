@@ -74,7 +74,7 @@ h1, h2 {
 }
 
 h3 {
-	margin-top: 0px;
+	margin-top: 2px;
 }
 
 button {
@@ -332,29 +332,74 @@ button {
 	margin-bottom: 15px;
 }
 
-#iknav {
-	/*background: #f5ea2e;*/
-	width: 230px;
+.iknav {
+	width: 200px;
 	padding: 1em;
-	float: left;
+	float: right;
 	margin: 15px;
-	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -3em;
+	margin-bottom: 3px;
+	margin-left: 3px;
 }
 
 .sudenpennutnav {
+	border-style: solid;
 	border-width: 15px;
 	border-color: #f5ea2e;
-	background: #f5f877;
+	background: #f9faa8;
 }
 
 #activities {
 	width: 100%;
+}
+
+#activitiesleft {
+	width: 49%;
 	float: left;
 }
 
+#activitiesright {
+	width: 49%;
+	float: right;
+}
+
+@media screen and (max-width: 900px) {
+	#activitiesleft {
+		width: 100%;
+	}
+	
+	#activitiesright {
+		width: 100%;
+		float: left;
+	}
+}
+
+.firstheading {
+	clear: both;
+}
+
 .activity {
-	width: 100%;
-	float: left;
+	border-color: #BBB;
+	border-style: solid;
+	border-width: 2px;
+	border-top-width: 0px;
+	padding: 4px;
+	overflow: auto;
+}
+
+.activity.actsud:nth-child(odd)
+{
+background: #f9faa8;
+}
+
+.activity:nth-child(even)
+{
+background: #fff;
+}
+
+.activity.first {
+	border-top-width: 2px;
 }
 
 .leftpic {
@@ -365,3 +410,101 @@ button {
 #ikcontent {
 	width: 100%;
 }
+
+/*** ACTIVITY GENERAL***/
+
+#aktcontent {
+	width: 69.9%;
+	float: left;
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.tips {
+	width: 69.9%;
+	float: left;
+	margin: 15px;
+	margin-left: 0px;
+}
+
+.tip {
+	border: 1px;
+	border-style: solid;
+	border-color: #BBB;
+	background: #F5F5F5;
+	margin: 15px;
+	padding: 1em;
+	overflow: auto;
+}
+
+.tipinfo {
+	width: 19%%;
+	float: left;
+	margin-left: 10px;
+}
+
+.tipcontent {
+	width: 75%%;
+	float: right;
+	margin-right: 10px;
+}
+
+.aktbox {
+	width: 24.9%;
+	float: right;
+}
+
+.aktbox.yla{
+	padding: 1em;
+	padding-bottom: 0em;
+	border: 2px;
+	border-bottom: 0px;
+	border-style: solid;
+}
+
+.aktbox.ala{
+	padding: 1em;
+	padding-top: 0em;
+	border: 2px;
+	border-top: 0px;
+	border-style: solid;
+}
+
+@media screen and (max-width: 1010px) {
+	.aktbox {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.aktbox {
+		width: auto;
+		float: none;
+	}
+
+	.aktbox.ala {
+		padding: 1em;
+		border: 2px;
+	}
+
+	.aktbox.yla {
+		padding: 1em;
+		border: 2px;
+	}
+
+	#aktcontent {
+		width: auto;
+		float: none;
+	}
+}
+
+
+
+/*** ACTIVITY SUDENPENTU***/
+
+.aktbox.supebox{
+	border-color: #f5ea2e;
+	background: #f5f877;
+
+}
+
