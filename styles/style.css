@@ -325,6 +325,25 @@ button {
 	padding: 0;
 }
 
+.ui-slider-handle {
+	background: #666;
+	border-radius: 100%;
+}
+
+.ui-slider-range {
+	background: #999;
+}
+
+.ui-slider {
+	background: #CCC;
+	margin: 0 10px;
+}
+
+.labels {
+	text-align: center;
+	padding: 5px 0;
+}
+
 /*** SUDENPENNUT FRONT PAGE ***/
 
 .centered{

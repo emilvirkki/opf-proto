@@ -305,9 +305,19 @@
 							<li><span>Muu</span></li>
 						</ul>
 						<h4>Kesto</h4>
-						[slider]
+						<div id="sl-kesto"></div>
+						<div class="labels">
+							<span id="sl-kesto-label-min"></span>
+							-
+							<span id="sl-kesto-label-max"></span>
+						</div>
 						<h4>Valmisteluaika</h4>
-						[slider]
+						<div id="sl-vaika"></div>
+						<div class="labels">
+							<span id="sl-vaika-label-min"></span>
+							-
+							<span id="sl-vaika-label-max"></span>
+						</div>
 						<h4>Varusteet</h4>
 						<ul class="checkboxes">
 							<li><span>Aivot</span></li>
@@ -317,7 +327,12 @@
 
 						</ul>
 						<h4>Ryhmäkoko</h4>
-						[slider]
+						<div id="sl-rkoko"></div>
+						<div class="labels">
+							<span id="sl-rkoko-label-min"></span>
+							-
+							<span id="sl-rkoko-label-max"></span>
+						</div>
 					</div>
 				</div>
 
@@ -352,7 +367,33 @@
 			$('#tree ul').tree();
 
 			$('.checkboxes li').prepend('<input type="checkbox">');
-			$('.checkboxes').tree()			
+			$('.checkboxes').tree()	;
+
+			function makeSlider(id, max, step, valuetransform) {
+				$('#' + id).slider({
+					range: true,
+					min: 0,
+					max: max,
+					step: step,
+					values: [0, 100],
+					slide: function(event, ui) {
+						$('#' + id + '-label-min').text(valuetransform(ui.values[0]));
+						$('#' + id + '-label-max').text(valuetransform(ui.values[1]));
+					}
+				});
+			}
+
+			makeSlider('sl-kesto', 100, 10, function(value) {
+				return value + ' yksikköä';
+			});
+
+			makeSlider('sl-vaika', 100, 10, function(value) {
+				return value + ' yksikköä';
+			});
+
+			makeSlider('sl-rkoko', 100, 10, function(value) {
+				return value + ' yksikköä';
+			});
 		</script>
 	</body>
 </html>
