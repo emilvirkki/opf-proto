@@ -157,6 +157,10 @@ button {
 	}
 }
 
+.collapsible { /* Pakotetaan nää kaikki sisältään floatit */
+	overflow: auto;
+}
+
 .collapsible .heading::before {
 	content: url(slide_up.png);
 	margin-right: 5px;
