@@ -182,7 +182,19 @@ button {
 	content: url(slide_up.png);
 }
 
+@media screen and (max-width: 830px) {
+	.collapsible .content {
+		display: none;
+	}
 
+	.collapsible .heading::before {
+		content: url(slide_down.png);
+	}
+
+	.collapsible.collapsed .heading::before {
+		content: url(slide_up.png);
+	}
+}
 
 /*********************** SPECIFIC STYLES ***********************/
 
