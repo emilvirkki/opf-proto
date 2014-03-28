@@ -286,6 +286,44 @@ button {
 		width: 100%;
 	}
 }
+/***  AKTIVITEETTIHAKU ***/
+
+#searchbar {
+	width: 30%;
+	float: left;
+	background: #DDD;
+	padding: 10px;
+	margin-left: -20px;
+}
+
+#searchresults {
+	width: 69%;
+	float: right;
+}
+
+.toggle {
+	background: 50% 100% no-repeat url(arrow_down.png);
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.collapsed .toggle {
+	background: 50% 100% no-repeat url(arrow_right.png);
+}
+
+.su li li .toggle,
+.se li .toggle,
+.ta li .toggle,
+.sa li li .toggle,
+.va li .toggle
+ {
+	display: none;
+}
+
+#the-tree, .checkboxes {
+	padding: 0;
+}
 
 /*** SUDENPENNUT FRONT PAGE ***/
 
