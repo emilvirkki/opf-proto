@@ -289,10 +289,10 @@ button {
 /***  AKTIVITEETTIHAKU ***/
 
 #searchbar {
-	width: 30%;
+	width: 25%;
 	float: left;
 	background: #DDD;
-	padding: 10px;
+	padding: 0 20px 20px;
 	margin-left: -20px;
 }
 

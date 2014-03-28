@@ -32,6 +32,11 @@
 		</div>
 		<div id="main">
 		<!-- ÄLÄ MUOKKAA TÄSTÄ YLÖS paitsi otsikko  -->
+			<div id="breadcrumb">
+				<a href="index.html">Etusivu</a> /
+				<a href="ohjelma.html">Ohjelma</a> /
+				Aktiviteettihaku
+			</div>
 
 			<h1>Aktiviteettihaku</h1>
 
@@ -307,16 +312,16 @@
 						<h4>Kesto</h4>
 						<div id="sl-kesto"></div>
 						<div class="labels">
-							<span id="sl-kesto-label-min"></span>
+							<span id="sl-kesto-label-min">30 min</span>
 							-
-							<span id="sl-kesto-label-max"></span>
+							<span id="sl-kesto-label-max">kauemmin</span>
 						</div>
 						<h4>Valmisteluaika</h4>
 						<div id="sl-vaika"></div>
 						<div class="labels">
-							<span id="sl-vaika-label-min"></span>
+							<span id="sl-vaika-label-min">15 min</span>
 							-
-							<span id="sl-vaika-label-max"></span>
+							<span id="sl-vaika-label-max">kauemmin</span>
 						</div>
 						<h4>Varusteet</h4>
 						<ul class="checkboxes">
@@ -329,18 +334,19 @@
 						<h4>Ryhmäkoko</h4>
 						<div id="sl-rkoko"></div>
 						<div class="labels">
-							<span id="sl-rkoko-label-min"></span>
+							<span id="sl-rkoko-label-min">yksin</span>
 							-
-							<span id="sl-rkoko-label-max"></span>
+							<span id="sl-rkoko-label-max">isommassa porukassa</span>
 						</div>
 					</div>
 				</div>
 
+				<!--
 				<div class="performsearch">
 					<button>Tyhjennä haku</button>
 					<small><a href="#">Tyhjenä haku</a></small>
 				</div>
-
+				-->
 
 			</div>
 
@@ -383,16 +389,40 @@
 				});
 			}
 
-			makeSlider('sl-kesto', 100, 10, function(value) {
-				return value + ' yksikköä';
+			makeSlider('sl-kesto', 7, 1, function(value) {
+				var values = [
+					'30 min',
+					'45 min',
+					'tunti',
+					'1½ tuntia',
+					'koko päivä',
+					'viikonloppu',
+					'kauemmin'
+				];
+				return values[value];
 			});
 
-			makeSlider('sl-vaika', 100, 10, function(value) {
-				return value + ' yksikköä';
+			makeSlider('sl-vaika', 6, 1, function(value) {
+				var values = [
+					'ei valmistelua',
+					'15 min',
+					'30 min',
+					'45 min',
+					'tunti',
+					'kauemmin'
+				];
+				return values[value];
 			});
 
-			makeSlider('sl-rkoko', 100, 10, function(value) {
-				return value + ' yksikköä';
+			makeSlider('sl-rkoko', 4, 1, function(value) {
+				var values = [
+					'yksin',
+					'kaksin',
+					'muutama',
+					'laumassa tai vartiossa',
+					'isommassa porukassa'
+				];
+				return values[value];
 			});
 		</script>
 	</body>
