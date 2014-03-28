@@ -310,6 +310,11 @@ button {
 	float: right;
 }
 
+.word-search {
+	width: 98%;
+	margin-bottom: 10px;
+}
+
 .toggle {
 	background: 50% 100% no-repeat url(arrow_down.png);
 	display: inline-block;
