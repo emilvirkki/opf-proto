@@ -157,6 +157,15 @@ button {
 	}
 }
 
+.collapsible .heading::before {
+	content: url(slide_up.png);
+	margin-right: 5px;
+}
+
+.collapsible.collapsed .heading::before {
+	content: url(slide_down.png);
+}
+
 
 
 /*********************** SPECIFIC STYLES ***********************/
