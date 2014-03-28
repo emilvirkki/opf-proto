@@ -97,6 +97,10 @@ button {
 	padding: 0.2em;
 }
 
+#nav2 ul ul {
+	margin-left: 1em;
+}
+
 #content {
 	float: right;
 	width: 69%;
