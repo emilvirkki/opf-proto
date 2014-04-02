@@ -200,6 +200,80 @@ button {
 	}
 }
 
+/*** Ikonit ***/
+
+.icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	background: 0 0 no-repeat url(../images/icons/icons.png);
+	line-height: 24px;
+	text-align: center;
+	font-size: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.icon-metsa {
+	background-position: 0 0;
+}
+
+.icon-kolo {
+	background-position: 0 -27px;
+}
+
+.icon-leiri {
+	background-position: 0 -55px;
+}
+
+.icon-vene {
+	background-position: 0 -83px;
+}
+
+.icon-ulkona {
+	background-position: 0 -110px;
+}
+
+.icon-kaupunki {
+	background-position: 0 -139px;
+}
+
+.icon-1h {
+	background-position: -28px 0;
+}
+
+.icon-1tai2h {
+	background-position: -28px -27px;
+}
+
+.icon-2h {
+	background-position: -28px -55px;
+}
+
+.icon-ryhma {
+	background-position: -28px -83px;
+}
+
+.icon-isoryhma {
+	background-position: -28px -110px;
+}
+
+.icon-pakollinen {
+	background-position: -57px 0;
+}
+
+.icon-vapaavalintainen {
+	background-position: -57px -30px;
+}
+
+.icon-valmisteluaika {
+	background-position: -57px -55px;
+}
+
+.icon-kesto {
+	background-position: -57px -83px;
+}
+
 /*********************** SPECIFIC STYLES ***********************/
 
 
@@ -388,6 +462,18 @@ button {
 .labels {
 	text-align: center;
 	padding: 5px 0;
+}
+
+.result h3 {
+	margin: 5px 0;
+}
+
+.result .links {
+	margin: 5px 0 0;
+}
+
+.result {
+	margin-bottom: 1.5em;
 }
 
 /*** SUDENPENNUT FRONT PAGE ***/
