@@ -97,6 +97,10 @@ button {
 	padding: 0.2em;
 }
 
+#nav2 ul ul {
+	margin-left: 1em;
+}
+
 #content {
 	float: right;
 	width: 69%;
@@ -157,7 +161,118 @@ button {
 	}
 }
 
+.collapsible { /* Pakotetaan nää kaikki sisältään floatit */
+	overflow: auto;
+}
 
+.collapsible .heading::before {
+	content: url(slide_up.png);
+	margin-right: 5px;
+}
+
+.collapsible.collapsed .heading::before {
+	content: url(slide_down.png);
+}
+
+.collapsible.default-closed .content {
+	display: none;
+}
+
+.collapsible.default-closed .heading::before {
+	content: url(slide_down.png);
+}
+
+.collapsible.default-closed.collapsed .heading::before {
+	content: url(slide_up.png);
+}
+
+@media screen and (max-width: 830px) {
+	.collapsible .content {
+		display: none;
+	}
+
+	.collapsible .heading::before {
+		content: url(slide_down.png);
+	}
+
+	.collapsible.collapsed .heading::before {
+		content: url(slide_up.png);
+	}
+}
+
+/*** Ikonit ***/
+
+.icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	background: 0 0 no-repeat url(../images/icons/icons.png);
+	line-height: 24px;
+	text-align: center;
+	font-size: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.icon-metsa {
+	background-position: 0 0;
+}
+
+.icon-kolo {
+	background-position: 0 -27px;
+}
+
+.icon-leiri {
+	background-position: 0 -55px;
+}
+
+.icon-vene {
+	background-position: 0 -83px;
+}
+
+.icon-ulkona {
+	background-position: 0 -110px;
+}
+
+.icon-kaupunki {
+	background-position: 0 -139px;
+}
+
+.icon-1h {
+	background-position: -28px 0;
+}
+
+.icon-1tai2h {
+	background-position: -28px -27px;
+}
+
+.icon-2h {
+	background-position: -28px -55px;
+}
+
+.icon-ryhma {
+	background-position: -28px -83px;
+}
+
+.icon-isoryhma {
+	background-position: -28px -110px;
+}
+
+.icon-pakollinen {
+	background-position: -57px 0;
+}
+
+.icon-vapaavalintainen {
+	background-position: -57px -30px;
+}
+
+.icon-valmisteluaika {
+	background-position: -57px -55px;
+}
+
+.icon-kesto {
+	background-position: -57px -83px;
+}
 
 /*********************** SPECIFIC STYLES ***********************/
 
@@ -286,6 +401,80 @@ button {
 		width: 100%;
 	}
 }
+/***  AKTIVITEETTIHAKU ***/
+
+#searchbar {
+	width: 25%;
+	float: left;
+	background: #DDD;
+	padding: 0 20px 20px;
+	margin-left: -20px;
+}
+
+#searchresults {
+	width: 69%;
+	float: right;
+}
+
+.word-search {
+	width: 98%;
+	margin-bottom: 10px;
+}
+
+.toggle {
+	background: 50% 100% no-repeat url(arrow_down.png);
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.collapsed .toggle {
+	background: 50% 100% no-repeat url(arrow_right.png);
+}
+
+.su li li .toggle,
+.se li .toggle,
+.ta li .toggle,
+.sa li li .toggle,
+.va li .toggle
+ {
+	display: none;
+}
+
+#the-tree, .checkboxes {
+	padding: 0;
+}
+
+.ui-slider-handle {
+	background: #666;
+	border-radius: 100%;
+}
+
+.ui-slider-range {
+	background: #999;
+}
+
+.ui-slider {
+	background: #CCC;
+	margin: 0 10px;
+}
+
+.labels {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.result h3 {
+	margin: 5px 0;
+}
+
+.result .links {
+	margin: 5px 0 0;
+}
+
+.result {
+	margin-bottom: 1.5em;
+}
 
 /*** SUDENPENNUT FRONT PAGE ***/
 
@@ -314,6 +503,27 @@ button {
 
 #activities {
 	width: 100%;
+}
+
+#activitiesleft {
+	width: 49%;
+	float: left;
+}
+
+#activitiesright {
+	width: 49%;
+	float: right;
+}
+
+@media screen and (max-width: 900px) {
+	#activitiesleft {
+		width: 100%;
+	}
+	
+	#activitiesright {
+		width: 100%;
+		float: left;
+	}
 }
 
 .firstheading {

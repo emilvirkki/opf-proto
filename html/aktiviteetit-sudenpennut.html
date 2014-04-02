@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Sudenpentujen ohjelma | Toimintasivusto</title>
 		<link rel="stylesheet" href="../styles/style.css" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<div id="portalbar"></div>
@@ -33,7 +34,8 @@
 		<div id="breadcrumb">
 			<a href="index.html">Etusivu</a> /
 			<a href="ohjelma.html">Ohjelma</a> /
-			Sudenpentujen ohjelma
+			<a href="sudenpennut.html">Sudenpennut</a> /
+			Jäljet ja askeleet
 		</div>
 		<div id="content">
 		<h1>Sudenpentujen ohjelma</h1>
@@ -67,18 +69,23 @@
 		</div>
 		
 		
-		<div id="activities">
+		<div id="activities" class="collapsible">
 		
-			<h2><a id="Aloitus">Aloitus</a></h2>
-			<div>
+			<h2 class="heading"><a id="Aloitus">Aloitus</a></h2>
+			<div class="content">
 			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/ikakaudet/sudenpennut.gif" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Tervetuloa</a></h3>
 				<p>Sudenpentu tutustuu laumaansa, johtajiinsa ja lippukuntaansa.</p>
 			</div>
 			</div>
-			<h2><a id="Suhde_itseen">Suhde itseen</a></h2>
-			<div>
+		</div>	
+			
+		<div class="collapsible">
+		<h2 class="heading"><a id="Suhde_itseen">Suhde itseen</a></h2>
+		<div class="content">
+		<div id="activitiesleft">
+			
 			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Askartelu.jpg" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Askartelu</a></h3>
@@ -120,8 +127,14 @@
 				<h3><a href="jalki-sudenpennut.html">Leiritaidot</a></h3>
 				<p>Sudenpentu opettelee leirillä tarvittavia perustaitoja.</p>
 			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+		<div id="activitiesright">
 			
-			<div class="activity actsud">
+			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Liikenne.jpg" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Liikenne</a></h3>
 				<p>Sudenpentu oppii liikkumaan turvallisesti lähiympäristössään, sekä liikennesääntöjä. Piiristä on lainattavissa Liikenneturvan tekemä pakki, joka sisältää tarvikkeita jäljen suorittamiseen. </p>
@@ -162,9 +175,14 @@
 				<h3><a href="jalki-sudenpennut.html">Tarinat</a></h3>
 				<p>Sudenpentu oppii tuntemaan erilaisia tarinoita ja osaa kertoa sellaisen.</p>
 			</div>
-			</div>
-			<h2><a id="Suhde_toiseen">Suhde toiseen</a></h2>
-			<div>
+		</div>
+		</div>
+		</div>
+
+		<div id="activities" class="collapsible">
+			
+			<h2 class="heading"><a id="Suhde_toiseen">Suhde toiseen</a></h2>
+			<div class="content">
 			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Ensiapu.jpg" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Ensiapu</a></h3>
@@ -201,8 +219,12 @@
 				<p>Sudenpentu tekee työtä yhteisen päämäärän saavuttamiseksi ilman palkkiota. Sudenpentu ymmärtää yhteistyön voiman.</p>
 			</div>
 			</div>
-			<h2><a id="Suhde_yhteiskuntaan">Suhde yhteiskuntaan</a></h2>
-			<div>
+			</div>
+
+
+			<div class="collapsible">
+			<h2 class="heading"><a id="Suhde_yhteiskuntaan">Suhde yhteiskuntaan</a></h2>
+			<div class="content">
 			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Kotiseutu.jpg" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Kotiseutu</a></h3>
@@ -233,8 +255,13 @@
 				<p>Sudenpentu osallistuu varainhankintaan ja tietää, miksi sitä tehdään. </p>
 			</div>
 			</div>
-			<h2><a id="Suhde_luontoon">Suhde luontoon</a></h2>
-			<div>
+			</div>
+
+
+
+			<div class="collapsible">
+			<h2 class="heading"><a id="Suhde_luontoon">Suhde luontoon</a></h2>
+			<div class="content">
 			<div class="activity actsud first">
 				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Lemmikki.jpg" alt=""></a></div>
 				<h3><a href="jalki-sudenpennut.html">Lemmikki</a></h3>
@@ -295,13 +322,18 @@
 				<p>Sudenpentu oppii turvallisen vesillä liikkumisen perustaitoja.</p>
 			</div>
 			</div>
-			<h2><a id="Siirtyma">Siirtymä</a></h2>
-			<div>
-			<div class="activity actsud first">
-				<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Siirtyma.gif" width="90" alt=""></a></div>
-				<h3><a href="jalki-sudenpennut.html">Siirtymä</a></h3>
-				<p>Sudenpentu valmistautuu seikkailijoihin siirtymiseen.</p>
 			</div>
+
+
+			<div class="collapsible">
+				<h2 class="heading"><a id="Siirtyma">Siirtymä</a></h2>
+				<div class="content">
+				<div class="activity actsud first">
+					<div class="image leftpic"><a href="jalki-sudenpennut.html"><img src="../images/sudenpennut/Siirtyma.gif" width="90" alt=""></a></div>
+					<h3><a href="jalki-sudenpennut.html">Siirtymä</a></h3>
+					<p>Sudenpentu valmistautuu seikkailijoihin siirtymiseen.</p>
+				</div>
+				</div>
 			</div>
 		</div>
 		</div>
