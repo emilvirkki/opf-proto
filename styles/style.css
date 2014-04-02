@@ -623,6 +623,15 @@ background: #fff;
 	border-style: solid;
 }
 
+.iconbox {
+	margin-top: 5px;
+}
+
+.jalkibox {
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
 @media screen and (max-width: 1010px) {
 	.aktbox {
 		width: 20%;
