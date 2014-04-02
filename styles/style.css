@@ -636,6 +636,10 @@ background: #fff;
 	border-style: solid;
 }
 
+.select {
+	width: 200px
+}
+
 .iconbox {
 	margin-top: 5px;
 }
@@ -683,7 +687,7 @@ background: #fff;
 }
 
 .tiplink {
-	float: right;
+	float: left;
 	width: auto;
 	margin-top: 17px;
 }
