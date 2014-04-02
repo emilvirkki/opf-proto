@@ -278,6 +278,10 @@ button {
 	background-position: -57px -83px;
 }
 
+input.filter {
+	margin: 0 0 2em 0;
+}
+
 /*********************** SPECIFIC STYLES ***********************/
 
 

@@ -50,6 +50,7 @@
 		</p>
 		
 		<div class="taitomerkit">
+			<div>
 			<div class="taitomerkki">
 				<img src="../images/taitomerkit/Bittinikkari.gif" alt="">
 				<h2><a href="taitomerkki.html">Bittinikkari</a></h2>
@@ -339,6 +340,7 @@
 				<h2><a href="taitomerkki.html">Virkkaus ja neule</a></h2>
 				<p>Seikkailija osaa valmistaa hyödyllisiä käsitöitä virkkaamalla ja neulomalla.</p>
 			</div>
+			</div>
 
 			<h2 class="cleared">Meripartiolaisten taitomerkit</h2>
 			<div>
@@ -398,5 +400,9 @@
 		</div>
 		<script src="../scripts/jquery.js"></script>
 		<script src="../scripts/general.js"></script>
+		<script src="../scripts/filter.js"></script>
+		<script>
+			opfFilter($('.taitomerkit'), '.taitomerkki', 'h2', 'Suodata taitomerkkejä...');
+		</script>
 	</body>
 </html>
