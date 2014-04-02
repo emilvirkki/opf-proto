@@ -118,9 +118,14 @@ button {
 
 @media screen and (max-width: 830px) {
 
+	body {
+		background: #FFF;
+	}
+
 	#nav {
 		background: #AAA;
 		overflow: auto;
+		margin-bottom: 0;
 	}
 
 	#nav #inner {
@@ -143,21 +148,20 @@ button {
 	#nav2, #content {
 		width: auto;
 		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	#main {
+		border: 0;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 }
 
 @media screen and (max-width: 460px) {
 	#nav #inner .item {
 		width: 50%;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	#main {
-		width: auto;
-		max-width: auto;
-		border: 0;
-		margin: 0 auto;
 	}
 }
 
