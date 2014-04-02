@@ -376,12 +376,14 @@ background: #fff;
 	margin: 15px;
 	padding: 1em;
 	overflow: auto;
+	clear: both;
 }
 
 .tipinfo {
 	width: 19%%;
 	float: left;
 	margin-left: 10px;
+	margin-top: 15px;
 }
 
 .tipcontent {
@@ -439,7 +441,45 @@ background: #fff;
 	}
 }
 
+.descript {
+	font-style: italic;
+}
 
+.tipheading {
+	float: left;
+	width: 20%;
+}
+
+.tiplink {
+	float: right;
+	width: auto;
+	margin-top: 17px;
+}
+
+.tipsorter {
+	float: left;
+	margin-left: 15px;
+	clear: both;
+}
+
+.thumbimage {
+	float: left;
+	margin-left: 25%;
+	clear: both;
+}
+
+.thumbnumber {
+	float: left;
+	margin: 15px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+}
+
+.addtip {
+	width: 69.9%;
+	float: left;
+	margin: 15px;
+}
 
 /*** ACTIVITY SUDENPENTU***/
 
