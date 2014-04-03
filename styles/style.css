@@ -753,8 +753,14 @@ h2.cleared {
 	margin-bottom: 0px;
 }
 
-.aktheading {
-	margin: 0px;
+.aktheading, .aktheading h1 {
+	margin: 10px;
+	margin-left: 0;
+	margin-bottom: 12px;
+}
+
+.aktheading, .aktheading h3 {
+	margin: 0;
 }
 
 .tips {
@@ -959,6 +965,14 @@ h2.cleared {
 	border-color: #D4791E;
 	background: #e7a057;
 }
+
+/*** ACTIVITY SEIKKAILIJA***/
+
+.aktbox.tarpojabox {
+	border-color: #5e0f75;
+	background: #be9fc7;
+}
+
 
 /***  ACTIVITIES VAELTAJA ***/
 
