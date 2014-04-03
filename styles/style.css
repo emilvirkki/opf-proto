@@ -1031,6 +1031,13 @@ h2.cleared {
 
 /*** ACTIVITY TARPOJA***/
 
+.aktbox.tarpojabox.pau {
+	padding: 1em;
+	border: 2px;
+	border-color: #5e0f75;
+	border-style: solid;
+}
+
 .aktbox.tarpojabox {
 	border-color: #5e0f75;
 	background: #be9fc7;
