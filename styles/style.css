@@ -632,17 +632,24 @@ h2.cleared {
 /*** ACTIVITY GENERAL***/
 
 #aktcontent {
-	width: 69.9%;
+	width: 65.9%;
 	float: left;
 	margin: 15px;
 	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.aktheading {
+	margin: 0px;
 }
 
 .tips {
-	width: 69.9%;
+	width: 65.9%;
 	float: left;
 	margin: 15px;
 	margin-left: 0px;
+	margin-top: 0px;
 }
 
 .tip {
@@ -702,11 +709,17 @@ h2.cleared {
 .jalkibox {
 	margin-left: 15px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.tipheading {
+	float: left;
+	width: 20%;
 }
 
 
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 700px) {
 	.aktbox {
 		width: auto;
 		float: none;
@@ -728,6 +741,7 @@ h2.cleared {
 	#aktcontent {
 		width: auto;
 		float: none;
+		margin-top: 0px;
 	}
 
 	.tips {
@@ -741,14 +755,20 @@ h2.cleared {
 	.addtip {
 		width: 100%;
 		margin: 15px;
+		margin-top: 0px;
 	}
 
 	.select {
 		width: 40%;
 	}
+
+	.tipheading {
+		float: left;
+		width: 40%;
+}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
 	.select {
 		width: 80%;
 	}
@@ -762,10 +782,6 @@ h2.cleared {
 	font-weight:bold;
 }
 
-.tipheading {
-	float: left;
-	width: 40%;
-}
 
 .tiplink {
 	float: left;
