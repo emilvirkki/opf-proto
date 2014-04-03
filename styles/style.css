@@ -981,6 +981,57 @@ h2.cleared {
 	background: #be9fc7;
 }
 
+/*** ACTIVITIES TARPOJA ***/
+
+.tasot {
+	display: table;
+}
+.tasot-inner {
+	display: table-row;
+}
+.taso {
+	display: table-cell;
+	padding: 10px;
+	border-right: 10px solid #FFF;
+}
+
+.tarpoja-aktiviteetti h3 {
+	margin-top: 20px;
+}
+
+.tarpoja-aktiviteetti h3 .icon {
+	margin-bottom: -5px;
+}
+
+.taso {
+	width: 22%;
+	background: #CCC;
+}
+
+.taso .taso-left {
+	float: left;
+}
+
+.taso-ikonit {
+	margin: 7px 0 1px;
+}
+
+.taso-nimi {
+	padding-top: 3px;
+}
+
+.taso-nimi, .taso-ikonit, .taso-kuvaus {
+	display: block;
+	margin-left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+	.tasot, .tasot-inner, .taso {
+		display: block;
+		width: auto;
+		margin-bottom: 10px;
+	}
+}	
 
 /***  ACTIVITIES VAELTAJA ***/
 
