@@ -534,6 +534,14 @@ input.filter {
 	margin-left: 3px;
 }
 
+@media screen and (max-width: 600px) {
+	.iknav {
+		width: 87%;
+		margin: 3px;
+		float: left;
+	}
+}
+
 .sudenpennutnav {
 	border-style: solid;
 	border-width: 15px;
@@ -544,17 +552,6 @@ input.filter {
 #activities {
 	
 }
-
-/*@media screen and (max-width: 900px) {
-	#activitiesleft {
-		width: 100%;
-	}
-	
-	#activitiesright {
-		width: 100%;
-		float: left;
-	}
-}*/
 
 .firstheading {
 	clear: both;
