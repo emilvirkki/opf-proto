@@ -740,6 +740,12 @@ input.filter {
 	clear: left;
 }
 
+@media screen and (max-width: 550px) {
+	.paussi {
+		width: 100%;
+	}
+}
+
 /*** TAITOMERKIT ***/
 
 .taitomerkit {
