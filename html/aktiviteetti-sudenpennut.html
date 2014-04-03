@@ -59,20 +59,19 @@
 			<div class="aktbox supebox yla">
 					<div class="image centered"><img src="../images/ikakaudet/sudenpennut.gif" alt=""></div>
 					<p>
-						<span class="icon icon-vapaavalintainen"></span> Vapaavalintainen<br>
-						<span class="icon icon-kesto">1h</span> Kesto<br>
-						<span class="icon icon-valmisteluaika">15</span> Valmisteluaika<br>
-						<span class="icon icon-ulkona"></span> Ulkona <br>
-						<span class="icon icon-isoryhma"></span> Lauma <br>
-						<span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>luonnonantimia, keitin<br>
-					</p>
+						<div class="aicon"> <span class="icon icon-vapaavalintainen"></span> Vapaavalintainen</div>
+						<div class="aicon"><span class="icon icon-kesto">60</span> Kesto: 60 min</div>
+						<div class="aicon"><span class="icon icon-valmisteluaika">15</span> Valmisteluaika: 15 min</div>
+						<div class="aicon"><span class="icon icon-ulkona"></span> Ulkona </div>
+						<div class="aicon"><span class="icon icon-isoryhma"></span> Lauma </div>
+						<div class="aicon"><span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>luonnonantimia, keitin</div>					</p>
 				</div>
 
 			
 
 			<div class="tips">
 				<div class="tipheading"><h2>Vinkit (2kpl)</h2></div>
-				<div class="tiplink"><a href="">Lisää vinkki</a></div>
+				<div class="tiplink"><a href="#lisaavinkki">Lisää vinkki</a></div>
 				<div class="tipsorter"><p>Lajittele vinkit: 
 					Uusin Suosituin</p>
 				</div>
@@ -83,7 +82,7 @@
 						<div>26.3.2014</div>
 					</div>
 					<div class="tipcontent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+						<p>Tämä on mallivinkki. Lopullisessa versiossa tähän voidaan liittää helposti kuvia tai esimerkiksi videoita Youtubesta. </p>
 					</div>
 					<div class="thumbimage"><img src="../images/thumbs_up.png" alt=""></div>
 					<div class="thumbnumber">3kpl</div>
@@ -94,7 +93,7 @@
 						<div>5.3.2014</div>
 					</div>
 					<div class="tipcontent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+						<p>Tämä on mallivinkki. Lopullisessa versiossa tähän voidaan liittää helposti kuvia tai esimerkiksi videoita Youtubesta.</p>
 					</div>
 					<div class="thumbimage"><img src="../images/thumbs_up.png" alt=""></div>
 					<div class="thumbnumber">2kpl</div>
@@ -102,20 +101,22 @@
 			
 
 			<div class="addtip">
-				<h2>Lisää vinkki</h2>
+				<h2><a id="lisaavinkki">Lisää vinkki</a></h2>
 				<form>
 					<p>Nimimerkki <br><input type="text" name="nickname"></p>
-					<p>Viesti <br><textarea rows="10" cols="60">Kirjoittamasi vinkki ei todellisuudessa lähde mihinkään. Lähetä-nappi päivittää sivun.</textarea></p>
+					<p>Viesti <br><textarea class="tiparea" rows="10">Kirjoittamasi vinkki ei todellisuudessa lähde mihinkään. Lähetä-nappi päivittää sivun.</textarea></p>
 					<input type="submit" value="Lähetä">
 				</form>
 			</div>
 			</div>
 
 			<div class="aktbox supebox ala">
-				<p>Jälki</p>
+
+				<p class="subhead">Jälki</p>
 				<div class="jalkibox"> <a href="jalki-sudenpennut.html">Leirikokki</a></div>
 
-				<p>Jäljen muut askeleet</p>
+				<p class="subhead">Jäljen muut askeleet</p>
+
 				<div class="jalkibox"> 
 					<select class="select">
   						<option>Valmistan syötävää avotulella</option>
@@ -123,12 +124,16 @@
   						<option>Suunnittelemme lauman kanssa retken ruokalistan ja tiedän, mitkä ruoat ja ainekset voi ottaa retkelle mukaan</option>
   						<option>Opettelen valmistamaan ruokaa retkikeittimellä</option>
   						<option>Siivoan laumani kanssa retkialueen ja lajittelemme jätteet retkellä</option>
-  						<option>Keitän teetä luonnonantimista</option>
+  						<option selected>Keitän teetä luonnonantimista</option>
   						<option>Teen laumani kanssa ostoslistan retkeä varten sekä käymme yhdessä ostoksilla lähikaupassa</option>
+  						<option>Ompelen itselleni ruokailuvälinepussin retkiä varten</option>
+  						<option>Opettelen laumani kanssa ruokalauluja ja -huutoja</option>
 					</select>
+
 				</div>
-				<p>Taitoalueet</p>
+				<p class="subhead">Taitoalueet</p>
 				<div class="jalkibox"> <a href="aktiviteettihaku.html">Ruokakulttuuri</a></div>
+
 			</div>
 
 
