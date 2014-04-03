@@ -706,7 +706,14 @@ input.filter {
 
 .samoajatnav {
 	border-color: #33652e;
-	background: #adc1ab;
+	background: #9BCF95;
+}
+
+/*** VAELTAJAT FRONT PAGE ***/
+
+.vaeltajatnav {
+	border-color: #6e470a;
+	background: #b6a384;
 }
 
 /***PAUSSIT***/
