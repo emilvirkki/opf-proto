@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Onkiminen | Toimintasivusto</title>
+		<title>Teemme mopoautovertailun | Toimintasivusto</title>
 		<link rel="stylesheet" href="../styles/style.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body class="ta">
+	<body class="su">
 		<div id="portalbar"></div>
 		<div id="nav">
 			<div id="inner">
@@ -35,33 +35,13 @@
 			<div id="breadcrumb">
 				<a href="index.html">Etusivu</a> /
 				<a href="ohjelma.html">Ohjelma</a> /
-				<a href="tarpojat.html">Tarpojat</a> /
-				<a href="tarpot">Leiri-tarppo</a> /
-				Kalastus: Onkiminen
+				<a href="samoajat.html">Samoajat</a> /
+				<a href="taskut-samoajat.html">Taskut ja aktiviteetit</a> /
+				<a href="tasku-samoajat.html">Tunkki ja pesukone</a> /
+				Teemme mopoautovertailun
 			</div>
-			<div class="aktheading"><h3>Kalastus</h3></div>
-			<div class="aktheading main"><h1>Onkiminen</h1> <div class="tasoicon">Taso <span class="icon icon-taso">1</span></div></div>
-			
-			<div class="aktheading">
-				<div class="tasotext">
-					<span class="icon icon-taso">1</span>
-					<strong> Onkiminen</strong>
-				</div>
-				
-				<div class="tasotext">
-					<span class="icon icon-taso">2</span>
-					<a href="">Pilkkiminen</a>
-				</div>
+			<div class="aktheading"><h1>Teemme mopoautovertailun</h1></div>
 
-				<div class="tasotext">
-					<span class="icon icon-taso">3</span>
-					<a href="">Verkot ja katiska</a>
-				</div>
-				<div class="tasotext">
-					<span class="icon icon-taso">4</span>
-					<a href="">Viehekalastus</a>
-				</div>
-			</div>
 
 		
 				
@@ -69,24 +49,24 @@
 
 			<div id="aktcontent">
 				<div class="descript">
-					<p>Tarpoja kalastaa ongella, perkaa saaliinsa ja valmistaa saaliista aterian.</p>
+					<p>Vartio vertailee, mitä hyötyä on mopoautosta tai polkupyörästä. Mitä määräyksiä mopoauton ajamiseen liittyy? Mitä vaikutuksia mopoautolla on ympäristölle?</p>
 				</div>
-				<p>Tarpoja oppii hankkimaan ruokaa kalastamalla ja oppii, kuinka kalasta saa ruokaa. Aktiviteetin voi suorittaa mahdollisuuksien mukaan myös arki-iltana.</p>
+				<p>Luotsi auttaa järjestelyissä ja aktiviteetit toteuttamisessa. Hän vie ryhmän tutustumaan mopoautoon tai antaa vinkkejä, mistä niistä saa tietoa. </p>
+				<p>Vartionjohtaja suunnittelee yhdessä luotsin kanssa toteutustavan. Hänen tehtävänään on ohjata vartio ottamaan selvää tarpeellisista asioista ja tekemään vertailu esimerkiksi vartion omille nettisivuille.</p>
 
 	
 
 			</div>
 
-			<div class="aktbox tarpojabox yla">
-					<div class="image centered"><img src="../images/ikakaudet/leiri.gif" alt=""></div>
+			<div class="aktbox samoajabox yla">
+					<div class="image centered"><img src="../images/ikakaudet/samoajat.gif" alt=""></div>
 					<p>
-						<div class="aicon"> <span class="icon icon-pakollinen"></span> Pakollinen</div>
+						<div class="aicon"> <span class="icon icon-vapaavalintainen"></span> Vapaavalintainen</div>
 						<div class="aicon"><span class="icon icon-kesto">90</span> Kesto: 90 min / kokous</div>
-						<div class="aicon"><span class="icon icon-valmisteluaika">30</span> Valmisteluaika: 30 min</div>
-						<div class="aicon"><span class="icon icon-ulkona"></span><span class="icon icon-leiri"></span> Ulkona, leirillä </div>
-						<div class="aicon"><span class="icon icon-1h"></span> Tarpoja yksin </div>
-						<div class="aicon"><span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>
-							mato-onki ja matoja</div></p>
+						<div class="aicon"><span class="icon icon-valmisteluaika">60</span> Valmisteluaika: 60 min</div>
+						<div class="aicon"><span class="icon icon-kolo"></span><span class="icon icon-ulkona"></span> Kolo, ulkona </div>
+						<div class="aicon"><span class="icon icon-ryhma"></span> Vartio </div>
+						<div class="aicon"><span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>tietoja mopoautoista, ehkä oikea mopoauto tutustumista varten, paperia tai tietokone vertailun tulosten kirjaamiseen</div>					</p>
 				</div>
 
 			
@@ -132,30 +112,31 @@
 			</div>
 			</div>
 
-			<div class="aktbox tarpojabox ala">
+			<div class="aktbox samoajabox ala">
 
-				<p class="subhead">Tarppo</p>
-				<div class="jalkibox"> <a href="jalki-sudenpennut.html">Leiri</a> </div><br>
+				<p class="subhead">Tasku</p>
+				<div class="jalkibox"> <a href="tasku-samoajat.html">Tunkki ja pesukone</a> </div><br>
 
-				<div class="jalkibox">Tarpon muut aktiviteetit: <br></div>
+				<div class="jalkibox">Taskun muut aktiviteetit: <br></div>
 
 				
 				<div class="jalkibox"> 
 					<select class="select">
-  						<option>Valmistan syötävää avotulella</option>
-  						<option>Opin pesemään kädet ja tiskaamaan leiriolosuhteissa</option>
-  						<option>Suunnittelemme lauman kanssa retken ruokalistan ja tiedän, mitkä ruoat ja ainekset voi ottaa retkelle mukaan</option>
-  						<option>Opettelen valmistamaan ruokaa retkikeittimellä</option>
-  						<option>Siivoan laumani kanssa retkialueen ja lajittelemme jätteet retkellä</option>
-  						<option selected>Keitän teetä luonnonantimista</option>
-  						<option>Teen laumani kanssa ostoslistan retkeä varten sekä käymme yhdessä ostoksilla lähikaupassa</option>
-  						<option>Ompelen itselleni ruokailuvälinepussin retkiä varten</option>
-  						<option>Opettelen laumani kanssa ruokalauluja ja -huutoja</option>
+  						<option>Huollan omat retkeilyjalkineeni oikein</option>
+  						<option>Kasvatamme yrttejä, kasviksia tai juureksia ja käytämme niitä ruoanlaitossa</option>
+  						<option>Keräämme marjoja tai omenoita ja teemme niistä hilloa tai mehua talven retkille</option>
+  						<option>Kokoamme parhaat pyykinpesuvinkit ja pesemme retkivaatteet ohjeiden mukaan</option>
+  						<option>Opettelemme vaihtamaan / paikkaamaan polkupyörän, mopon tai auton renkaan</option>
+  						<option>Otamme selvää, mistä käyttämämme päivittäiselintarvikkeet ovat kotoisin</option>
+  						<option>Pesemme mattoja</option>
+  						<option>Pidän huoneeni siistinä kuukauden ajan</option>
+  						<option selected>Teemme mopoautovertailun</option>
+  						<option>Toimin remonttireiskana. Huollan tai korjaan jotain kotona</option>
 					</select>
 
 				</div>
 				<p class="subhead">Taitoalueet</p>
-				<div class="jalkibox"> <a href="aktiviteettihaku.html">Retkeily </a> <br><a href="aktiviteettihaku.html"> Ruokakulttuuri</a></div>
+				<div class="jalkibox"> <a href="aktiviteettihaku.html">Kansalaistaidot</a></div>
 
 			</div>
 
