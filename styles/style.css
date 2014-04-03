@@ -29,8 +29,15 @@ body {
 
 #nav #inner .item {
 	display: inline-block;
-	margin-right: 1.2em;
+	margin-right: 1em;
 	position: relative;
+}
+
+#nav #inner .item.home a {
+	display: inline-block;
+	background: 50% 50% no-repeat url(icon-home.png);
+	text-indent: -999em;
+	width: 26px;
 }
 
 #nav .submenu {
@@ -143,6 +150,11 @@ button {
 
 	#nav .item:hover .submenu {
 		display: none;
+	}
+
+	#nav #inner .item.home a {
+		display: inline;
+		background: none;
 	}
 
 	#nav2, #content {
@@ -388,6 +400,14 @@ input.filter {
 		width: 100%;
 		float: none;
 		margin-bottom: 40px;
+	}
+
+	#slider {
+		margin-top: 40px;
+	}
+
+	#main.front {
+		max-width: 90%;
 	}
 
 	#front-container {
