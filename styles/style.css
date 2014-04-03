@@ -1010,12 +1010,20 @@ h2.cleared {
 
 /*** ACTIVITY SEIKKAILIJA***/
 
+.aktbox.seikkailijabox.taito {
+	padding: 1em;
+	border: 2px;
+	border-color: #D4791E;
+	border-style: solid;
+}
+
 .aktbox.seikkailijabox {
 	border-color: #D4791E;
 	background: #e7a057;
 }
 
-/*** ACTIVITY SEIKKAILIJA***/
+
+/*** ACTIVITY TARPOJA***/
 
 .aktbox.tarpojabox {
 	border-color: #5e0f75;
