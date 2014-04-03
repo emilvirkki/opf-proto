@@ -861,3 +861,10 @@ h2.cleared {
 
 }
 
+/*** ACTIVITY SEIKKAILIJA***/
+
+.aktbox.seikkailijabox {
+	border-color: #D4791E;
+	background: #e7a057;
+}
+
