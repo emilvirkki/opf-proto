@@ -601,7 +601,6 @@ input.filter {
 }
 
 .sudenpennutnav {
-	
 	border-color: #f5ea2e;
 	background: #f9faa8;
 }
@@ -701,6 +700,13 @@ input.filter {
 	.activity {
 		width: 100%;
 	}
+}
+
+/*** SAMOAJAT FRONT PAGE ***/
+
+.samoajatnav {
+	border-color: #33652e;
+	background: #adc1ab;
 }
 
 /***PAUSSIT***/
