@@ -703,6 +703,30 @@ input.filter {
 	}
 }
 
+/***PAUSSIT***/
+
+.paussi {
+	overflow: auto;
+	width: 46%;
+	float: left;
+	position: relative;
+	margin: 0 4% 2em 0;
+}
+
+.paussi h3, .paussi p {
+	margin: 0;
+}
+
+.paussi h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.paussi:nth-child(odd) {
+	clear: left;
+}
+
 /*** TAITOMERKIT ***/
 
 .taitomerkit {
