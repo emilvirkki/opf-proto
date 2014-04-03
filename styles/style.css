@@ -214,6 +214,18 @@ button {
 	.collapsible.collapsed .heading::before {
 		content: url(slide_up.png);
 	}
+
+	.filtered .collapsible .content {
+		display: block;
+	}
+
+	.filtered .collapsible .heading::before {
+		content: url(slide_up.png);
+	}
+
+	.filtered .collapsible.collapsed .heading::before {
+		content: url(slide_down.png);
+	}
 }
 
 /*** Ikonit ***/
@@ -292,6 +304,10 @@ button {
 
 input.filter {
 	margin: 0 0 2em 0;
+}
+
+.hidden {
+	display: none;
 }
 
 /*********************** SPECIFIC STYLES ***********************/
