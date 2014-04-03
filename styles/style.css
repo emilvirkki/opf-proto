@@ -118,9 +118,14 @@ button {
 
 @media screen and (max-width: 830px) {
 
+	body {
+		background: #FFF;
+	}
+
 	#nav {
 		background: #AAA;
 		overflow: auto;
+		margin-bottom: 0;
 	}
 
 	#nav #inner {
@@ -143,21 +148,20 @@ button {
 	#nav2, #content {
 		width: auto;
 		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	#main {
+		border: 0;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 }
 
 @media screen and (max-width: 460px) {
 	#nav #inner .item {
 		width: 50%;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	#main {
-		width: auto;
-		max-width: auto;
-		border: 0;
-		margin: 0 auto;
 	}
 }
 
@@ -272,6 +276,10 @@ button {
 
 .icon-kesto {
 	background-position: -57px -83px;
+}
+
+input.filter {
+	margin: 0 0 2em 0;
 }
 
 /*********************** SPECIFIC STYLES ***********************/
@@ -572,6 +580,53 @@ background: #fff;
 
 #ikcontent {
 	width: 100%;
+}
+
+/*** TAITOMERKIT ***/
+
+.taitomerkit {
+	margin: 2em 0 0 0;
+	overflow: auto;
+}
+
+.taitomerkki {
+	width: 46%;
+	float: left;
+	min-height: 67px;
+	position: relative;
+	margin: 0 4% 2em 0;
+}
+
+.taitomerkki:nth-child(odd) {
+	clear: left;
+}
+
+.taitomerkki img {
+	width: 50px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.taitomerkki h2, .taitomerkki p {
+	margin: 0 0 0 70px;
+}
+
+.taitomerkki h2 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+h2.cleared {
+	clear: both;
+	padding: 10px 0;
+}
+
+@media screen and (max-width: 550px) {
+	.taitomerkki {
+		width: 100%;
+	}
 }
 
 /*** ACTIVITY GENERAL***/
