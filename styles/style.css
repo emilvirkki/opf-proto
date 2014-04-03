@@ -569,6 +569,27 @@ input.filter {
 	
 }
 
+#activitiesleft {
+	width: 49%;
+	float: left;
+}
+
+#activitiesright {
+	width: 49%;
+	float: right;
+	
+}
+
+@media screen and (max-width: 650px) {
+	#activitiesleft {
+		width: 100%;
+	}
+	#activitiesright {
+		width: 100%;
+		float: left;
+	}
+}
+
 .firstheading {
 	clear: both;
 }
@@ -584,6 +605,12 @@ input.filter {
 
 .activity.full {
 	width: 100%;
+}
+
+.activity.nopic {
+	width: 100%;
+	min-height: 50px;
+	margin-left: -60px;
 }
 
 .activity.actsud:nth-child(odd){
@@ -618,6 +645,11 @@ input.filter {
 	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 5px;
+}
+
+.jalkipic {
+	float: left;
+	width: 100px;
 }
 
 #ikcontent {
