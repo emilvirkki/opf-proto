@@ -66,9 +66,10 @@
 
 		<p>Jälkiä voi tehdä yhden kerrallaan tai valita useamman tehtäväksi samanaikaisesti. Jokaisesta tehdystä jäljestä sudenpentu saa kankaisen jälkimerkin partiopaitansa oikeaan hihaan. Jälkimerkit kannattaa jakaa heti, kun jälki on saatu valmiiksi - näin sudenpennut saavat odotetun palkinnon tehdystä työstä saman tien!</p>
 
-		<p>Sudenpentuohjelma alkaa tervetuloa-jäljellä, jonka kaikki 12 askelta ovat pakollisia. Sudenpentuajan lopuksi puolestaan tehdään siirtymä-jälki, joka sisältää 6 askelta. Siirtymässä tehdään kaikki askeleet, mikäli se on mahdollista ja tulevan seikkailijajoukkueen sampo on jo tiedossa. Sudenpentuajan päättymisen merkkinä sudenpentu saa metallisen pennunkäpälän, jota kannetaan partiopaidassa aina partiopolun loppuun saakka. </p>
+		<p>Sudenpentuohjelma alkaa tervetuloa-jäljellä, jonka kaikki 12 askelta ovat pakollisia. Sudenpentuajan lopuksi puolestaan tehdään siirtymä-jälki, joka sisältää 6 askelta. Siirtymässä tehdään kaikki askeleet, mikäli se on mahdollista ja tulevan seikkailijajoukkueen sampo on jo tiedossa. Sudenpentuajan päättymisen merkkinä sudenpentu saa metallisen pennunkäpälän, jota kannetaan partiopaidassa aina partiopolun loppuun saakka.<br><br> </p>
 		</div>
 		
+		<div class="all-activities">
 		
 		<div id="activities" class="collapsible">
 		
@@ -331,6 +332,8 @@
 				</div>
 			</div>
 		</div>
+
+		</div> <!-- .all-activities -->
 		
 		<div id="nav2">
 			<ul>
@@ -357,5 +360,9 @@
 		</div>
 		<script src="../scripts/jquery.js"></script>
 		<script src="../scripts/general.js"></script>
+		<script src="../scripts/filter.js"></script>
+		<script>
+			opfFilter($('.all-activities'), '.activity', 'a', 'Suodata jälkiä...');
+		</script>
 	</body>
 </html>

@@ -214,6 +214,18 @@ button {
 	.collapsible.collapsed .heading::before {
 		content: url(slide_up.png);
 	}
+
+	.filtered .collapsible .content {
+		display: block;
+	}
+
+	.filtered .collapsible .heading::before {
+		content: url(slide_up.png);
+	}
+
+	.filtered .collapsible.collapsed .heading::before {
+		content: url(slide_down.png);
+	}
 }
 
 /*** Ikonit ***/
@@ -292,6 +304,10 @@ button {
 
 input.filter {
 	margin: 0 0 2em 0;
+}
+
+.hidden {
+	display: none;
 }
 
 /*********************** SPECIFIC STYLES ***********************/
@@ -534,6 +550,14 @@ input.filter {
 	margin-left: 3px;
 }
 
+@media screen and (max-width: 600px) {
+	.iknav {
+		width: 87%;
+		margin: 3px;
+		float: left;
+	}
+}
+
 .sudenpennutnav {
 	border-style: solid;
 	border-width: 15px;
@@ -545,16 +569,26 @@ input.filter {
 	
 }
 
-/*@media screen and (max-width: 900px) {
+#activitiesleft {
+	width: 49%;
+	float: left;
+}
+
+#activitiesright {
+	width: 49%;
+	float: right;
+	
+}
+
+@media screen and (max-width: 650px) {
 	#activitiesleft {
 		width: 100%;
 	}
-	
 	#activitiesright {
 		width: 100%;
 		float: left;
 	}
-}*/
+}
 
 .firstheading {
 	clear: both;
@@ -571,6 +605,12 @@ input.filter {
 
 .activity.full {
 	width: 100%;
+}
+
+.activity.nopic {
+	width: 100%;
+	min-height: 50px;
+	margin-left: -60px;
 }
 
 .activity.actsud:nth-child(odd){
@@ -605,6 +645,11 @@ input.filter {
 	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 5px;
+}
+
+.jalkipic {
+	float: left;
+	width: 100px;
 }
 
 #ikcontent {

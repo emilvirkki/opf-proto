@@ -4,11 +4,12 @@ function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
 			var currentItem = $(this);
 			var filterText = currentItem.find(itemTextSelector).text().toLowerCase();
 			if(filterText.indexOf(text.toLowerCase()) > -1) {
-				currentItem.show();
+				currentItem.removeClass('hidden');
 			} else {
-				currentItem.hide();
+				currentItem.addClass('hidden');
 			}
 		});
+		container.addClass('filtered')
 	}
 
 	var field = $('<input type="text" placeholder="' + fieldText + '" class="filter">');
