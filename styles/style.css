@@ -998,6 +998,12 @@ h2.cleared {
 	background: #be9fc7;
 }
 
+/*** ACTIVITY SAMOAJA***/
+
+.aktbox.samoajabox {
+	border-color: #33652e;
+	background: #9BCF95;
+}
 
 /***  ACTIVITIES VAELTAJA ***/
 
