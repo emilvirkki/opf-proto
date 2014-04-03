@@ -657,14 +657,14 @@ h2.cleared {
 }
 
 .tipinfo {
-	width: 19%%;
+	width: 19%;
 	float: left;
 	margin-left: 10px;
 	margin-top: 15px;
 }
 
 .tipcontent {
-	width: 75%%;
+	width: 75%;
 	float: right;
 	margin-right: 10px;
 }
@@ -689,11 +689,10 @@ h2.cleared {
 	border: 2px;
 	border-top: 0px;
 	border-style: solid;
-	clear: both;
 }
 
 .select {
-	width: 200px
+	width: 95%;
 }
 
 .iconbox {
@@ -705,13 +704,9 @@ h2.cleared {
 	margin-top: 0px;
 }
 
-@media screen and (max-width: 1010px) {
-	.aktbox {
-		width: 20%;
-	}
-}
 
-@media screen and (max-width: 620px) {
+
+@media screen and (max-width: 890px) {
 	.aktbox {
 		width: auto;
 		float: none;
@@ -720,18 +715,44 @@ h2.cleared {
 	.aktbox.ala {
 		padding: 1em;
 		border: 2px;
+		border-style: solid;
+		clear: both;
 	}
 
 	.aktbox.yla {
 		padding: 1em;
 		border: 2px;
+		border-style: solid;
 	}
 
 	#aktcontent {
 		width: auto;
 		float: none;
 	}
+
+	.tips {
+		width: 100%;
+	}
+
+	.tipcontent {
+		width: 60%;
+	}
+
+	.addtip {
+		width: 100%;
+		margin: 15px;
+	}
+
+	.select {
+		width: 40%;
+	}
 }
+
+@media screen and (max-width: 640px) {
+	.select {
+		width: 80%;
+	}
+}	
 
 .descript {
 	font-style: italic;
@@ -743,13 +764,17 @@ h2.cleared {
 
 .tipheading {
 	float: left;
-	width: 20%;
+	width: 40%;
 }
 
 .tiplink {
 	float: left;
 	width: auto;
 	margin-top: 17px;
+}
+
+.tiparea {
+	width: 100%;
 }
 
 .tipsorter {
