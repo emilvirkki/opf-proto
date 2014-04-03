@@ -302,6 +302,17 @@ button {
 	background-position: -57px -83px;
 }
 
+.icon-taso {
+	background: #5e0f75;
+	margin: 1px 0 0;
+	height: 22px;
+	width: 22px;
+	border-radius: 100%;
+	line-height: 21px;
+	color: #FFF;
+	font-size: 13px;
+}
+
 input.filter {
 	margin: 0 0 2em 0;
 }
