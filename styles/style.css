@@ -522,20 +522,10 @@ input.filter {
 }
 
 #activities {
-	width: 100%;
+	
 }
 
-#activitiesleft {
-	width: 49%;
-	float: left;
-}
-
-#activitiesright {
-	width: 49%;
-	float: right;
-}
-
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
 	#activitiesleft {
 		width: 100%;
 	}
@@ -544,42 +534,67 @@ input.filter {
 		width: 100%;
 		float: left;
 	}
-}
+}*/
 
 .firstheading {
 	clear: both;
 }
 
 .activity {
-	border-color: #BBB;
-	border-style: solid;
-	border-width: 2px;
-	border-top-width: 0px;
-	padding: 4px;
 	overflow: auto;
+	width: 46%;
+	float: left;
+	min-height: 67px;
+	position: relative;
+	margin: 0 4% 2em 0;
 }
 
-.activity.actsud:nth-child(odd)
-{
-background: #f9faa8;
+.activity.full {
+	width: 100%;
 }
 
-.activity:nth-child(even)
-{
-background: #fff;
+.activity.actsud:nth-child(odd){
+	/*background: #f9faa8;*/
+	clear: left;
+}
+
+.activity:nth-child(even){
+	/*background: #fff;*/
 }
 
 .activity.first {
-	border-top-width: 2px;
+	/*border-top-width: 2px;*/
 }
 
 .leftpic {
-	width: 100px;
 	float: left;
+}
+
+.leftpic img {
+	width: 50px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.activity h3, .activity p {
+	margin: 0 0 0 60px;
+}
+
+.activity h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 5px;
 }
 
 #ikcontent {
 	width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+	.activity {
+		width: 100%;
+	}
 }
 
 /*** TAITOMERKIT ***/
