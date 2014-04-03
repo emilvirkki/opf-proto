@@ -71,7 +71,7 @@
 			
 
 			<div class="tips">
-				<div class="tipheading"><h2>Vinkit (2kpl)</h2></div>
+				<div class="tipheading"><h2>Vinkit (3kpl)</h2></div>
 				<div class="tiplink"><a href="#lisaavinkki">Lisää vinkki</a></div>
 				<div class="tipsorter"><p>Lajittele vinkit: 
 					<strong>Uusin</strong> <a href="">Suosituin</a>
@@ -98,6 +98,18 @@
 					</div>
 					<div class="thumbimage"><img src="../images/thumbs_up.png" alt=""></div>
 					<div class="thumbnumber">2kpl</div>
+				</div>
+
+				<div class="tip">
+					<div class="tipinfo">
+						<div>Nimimerkki</div>
+						<div>12.2.2014</div>
+					</div>
+					<div class="tipcontent">
+						<p>Tämä on mallivinkki. Lopullisessa versiossa tähän voidaan liittää helposti kuvia tai esimerkiksi videoita Youtubesta. </p>
+					</div>
+					<div class="thumbimage"><img src="../images/thumbs_up.png" alt=""></div>
+					<div class="thumbnumber">5kpl</div>
 				</div>
 			
 
@@ -147,6 +159,12 @@
 				</div>
 				<p class="subhead">Taitoalueet</p>
 				<div class="jalkibox"> <a href="aktiviteettihaku.html">Partiokulttuuri</a></div>
+
+				<p class="subhead">Teeman sopivat taitomerkit</p>
+				<div class="jalkibox tmerkki1"> <a href="taitomerkki.html"><img src="../images/taitomerkit/Bittinikkari.gif" alt=""></a><br><a href="taitomerkki.html">Bittinikkari</a></div>
+
+				<div class="jalkibox tmerkki2"> <a href="taitomerkki.html"><img src="../images/taitomerkit/Toimittaja.gif"  alt=""></a><br><a href="taitomerkki.html">Toimittaja</a></div>
+
 
 			</div>
 

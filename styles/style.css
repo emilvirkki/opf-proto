@@ -776,6 +776,7 @@ h2.cleared {
 	border: 2px;
 	border-top: 0px;
 	border-style: solid;
+	overflow: auto;
 }
 
 .select {
@@ -797,6 +798,19 @@ h2.cleared {
 	width: 20%;
 }
 
+.jalkibox.tmerkki1 {
+	float: left;
+	width: 40%;
+}
+
+.jalkibox.tmerkki2 {
+	float: right;
+	width: 40%;
+}
+
+.jalkibox img {
+	width: 50px;
+	}
 
 
 @media screen and (max-width: 700px) {
@@ -845,7 +859,7 @@ h2.cleared {
 	.tipheading {
 		float: left;
 		width: 40%;
-}
+	}
 }
 
 @media screen and (max-width: 550px) {
