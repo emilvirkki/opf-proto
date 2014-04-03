@@ -906,3 +906,26 @@ h2.cleared {
 
 }
 
+/***  ACTIVITIES VAELTAJA ***/
+
+.vaeltaja-aihealueet {
+	width: 33%;
+	float: left;
+}
+
+.vaeltaja-aihealueet a {
+	display: block;
+	padding: 5px 0;
+}
+
+#vaeltajat-kaikki {
+	overflow: auto;
+	margin: 2em 0 1.5em;
+}
+
+@media screen and (max-width: 830px) {
+	.vaeltaja-aihealueet {
+		width: auto;
+		float: none;
+	}
+}
