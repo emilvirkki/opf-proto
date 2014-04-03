@@ -313,6 +313,14 @@ button {
 	font-size: 13px;
 }
 
+.icon-tarvikkeet {
+	background: none;
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+}
+
 input.filter {
 	margin: 0 0 2em 0;
 }
