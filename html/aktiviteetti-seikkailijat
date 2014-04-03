@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Keitän teetä luonnonantimista | Toimintasivusto</title>
+		<title>Kirjuri | Toimintasivusto</title>
 		<link rel="stylesheet" href="../styles/style.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -35,12 +35,11 @@
 			<div id="breadcrumb">
 				<a href="index.html">Etusivu</a> /
 				<a href="ohjelma.html">Ohjelma</a> /
-				<a href="sudenpennut.html">Sudenpennut</a> /
-				<a href="aktiviteetit-sudenpennut.html">Jäljet ja askeleet</a> /
-				<a href="jalki-sudenpennut.html">Leirikokki</a> /
-				Keitän teetä luonnonantimista
+				<a href="seikkailijat.html">Seikkailijat</a> /
+				<a href="ilmansuunta-seikkailijat.html">Ilmansuunta pohjoinen</a> /
+				Kirjuri
 			</div>
-			<div class="aktheading"><h1>Keitän teetä luonnonantimista</h1></div>
+			<div class="aktheading"><h1>Kirjuri</h1></div>
 
 
 		
@@ -49,23 +48,24 @@
 
 			<div id="aktcontent">
 				<div class="descript">
-					<p>Sudenpentu oppii, että luonnosta voi löytää erilaisia syötäväksi kelpaavia kasveja.</p>
+					<p>Seikkailija osallistuu joukkueen historian tallentamiseen.</p>
 				</div>
-				<p>Tutustukaa luonnosta löytyviin syötäväksi kelpaaviin kasveihin. Etsikää sopivia kasveja ja opetelkaa välttämään vaarallisia tai myrkyllisiä kasveja. Keittäkää teetä esimerkiksi havunneulasista, marjoista, kuusenkerkistä, kanervista tai apiloista. Askeleen voi yhdistää retkikeittimen käyttöön tai nuotion tekemiseen.</p>
+				<p>Seikkailija kirjoittaa omalla vuorollaan joukkueen päiväkirjaan tai kronikkaan. Jokainen voi kirjoittaa kotona omalla ajallaan, sen jälkeen kun ensimmäinen juttu on kirjoitettu kokouksessa yhdessä.</p>
+				<p>Sampo auttaa seikkailijoita aktiviteetin suunnittelussa. Hän ohjeistaa kirjoitustyötä vaikka samalla, kun joukkue askartelee päiväkirjaa tai kansia. Kirjoittakaa ensimmäinen teksti yhdessä ja lisätkää samalla kirjan alkusivuille seikkailijoiden tietoja. Liittäkää myös valokuvat jokaisesta. Vaihtoehtoisesti voit ottaa itse ensimmäisen kirjoitusvuoron ja kirjoittaa "malliksi", jos tuntuu, että seikkailijoista on sen jälkeen helpompi itse kirjoittaa. Esittele myös joidenkin vanhempien ryhmien kirjoja ja kerro, kuinka mukavia muistoja ne ovat myöhemmin. Kannusta ja kerro erilaisista tavoista toteuttaa päiväkirjaa. Piirtäkää tai liimailkaa tarroja. Liittäkää päiväkirjaan valokuvia esimerkiksi retkiltä - digikuvien printtaaminen on helppoa ja edullista. Tehkää kertomuksia haastatteluilla, sarjakuvilla tai uutistyyliin.</p>
 
 	
 
 			</div>
 
-			<div class="aktbox supebox yla">
-					<div class="image centered"><img src="../images/ikakaudet/sudenpennut.gif" alt=""></div>
+			<div class="aktbox seikkailijabox yla">
+					<div class="image centered"><img src="../images/ikakaudet/Pohjoinen.gif" alt=""></div>
 					<p>
-						<div class="aicon"> <span class="icon icon-vapaavalintainen"></span> Vapaavalintainen</div>
-						<div class="aicon"><span class="icon icon-kesto">60</span> Kesto: 60 min</div>
+						<div class="aicon"><span class="icon icon-pakollinen"></span> Pakollinen</div>
+						<div class="aicon"><span class="icon icon-kesto">30</span> Kesto: 30 min</div>
 						<div class="aicon"><span class="icon icon-valmisteluaika">15</span> Valmisteluaika: 15 min</div>
-						<div class="aicon"><span class="icon icon-ulkona"></span> Ulkona </div>
-						<div class="aicon"><span class="icon icon-isoryhma"></span> Lauma </div>
-						<div class="aicon"><span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>luonnonantimia, keitin</div>					</p>
+						<div class="aicon"><span class="icon icon-kolo"></span> Kololla </div>
+						<div class="aicon"><span class="icon icon-1h"></span> Seikkailija yksin </div>
+						<div class="aicon"><span class="icon icon-tarvikkeet"></span> Tarvikkeet: <br>kirjoitus- ja piirustusvälineet ja vartion päiväkirja</div>					</p>
 				</div>
 
 			
@@ -111,30 +111,42 @@
 			</div>
 			</div>
 
-			<div class="aktbox supebox ala">
+			<div class="aktbox seikkailijabox ala">
 
-				<p class="subhead">Jälki</p>
-				<div class="jalkibox"> <a href="jalki-sudenpennut.html">Leirikokki</a> </div><br>
+				<p class="subhead">Ilmansuunta</p>
+				<div class="jalkibox"> <a href="ilmansuunta-seikkailijat.html">Pohjoinen</a> </div><br>
 
-				<div class="jalkibox">Jäljen muut askeleet: <br></div>
+				<div class="jalkibox">Pohjoisen muut aktiviteetit: <br></div>
 
 				
 				<div class="jalkibox"> 
 					<select class="select">
-  						<option>Valmistan syötävää avotulella</option>
-  						<option>Opin pesemään kädet ja tiskaamaan leiriolosuhteissa</option>
-  						<option>Suunnittelemme lauman kanssa retken ruokalistan ja tiedän, mitkä ruoat ja ainekset voi ottaa retkelle mukaan</option>
-  						<option>Opettelen valmistamaan ruokaa retkikeittimellä</option>
-  						<option>Siivoan laumani kanssa retkialueen ja lajittelemme jätteet retkellä</option>
-  						<option selected>Keitän teetä luonnonantimista</option>
-  						<option>Teen laumani kanssa ostoslistan retkeä varten sekä käymme yhdessä ostoksilla lähikaupassa</option>
-  						<option>Ompelen itselleni ruokailuvälinepussin retkiä varten</option>
-  						<option>Opettelen laumani kanssa ruokalauluja ja -huutoja</option>
+						<option>Haavat ja hiertymät</option>
+						<option>Heikot jäät</option>
+						<option>Jokamiehenoikedet</option>
+						<option>Karttamerkit</option>
+						<option>Kaupunkisuunnistus</option>
+  						<option selected>Kirjuri</option>
+  						<option>Legendaarista</option>
+  						<option>Merimiessolmu</option>
+  						<option>Nenäverenvuoto</option>
+  						<option>Nuotio</option>
+  						<option>Partioihanteet</option>
+  						<option>Puukko</option>
+  						<option>Retkikeitin</option>
+  						<option>Retkiruokaa</option>
+  						<option>Rohkeuskoe</option>
+  						<option>Saha/option>
+  						<option>Seikkailijan liikunta</option>
+  						<option>Siansorkka</option>
+  						<option>Uimataito</option>
+  						<option>Varusteluettelo</option>
+  						<option>Yö laavussa</option>
 					</select>
 
 				</div>
 				<p class="subhead">Taitoalueet</p>
-				<div class="jalkibox"> <a href="aktiviteettihaku.html">Ruokakulttuuri</a></div>
+				<div class="jalkibox"> <a href="aktiviteettihaku.html">Partiokulttuuri</a></div>
 
 			</div>
 
