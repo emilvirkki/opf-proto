@@ -1005,6 +1005,14 @@ h2.cleared {
 	background: #9BCF95;
 }
 
+/*** ACTIVITY VAELTAJA***/
+
+.aktbox.vaeltajabox {
+	border-color: #6e470a;
+	background: #b6a384;
+}
+
+
 /***  ACTIVITIES VAELTAJA ***/
 
 .vaeltaja-aihealueet {
