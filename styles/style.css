@@ -310,6 +310,27 @@ input.filter {
 	display: none;
 }
 
+.su h1, .se h1, .ta h1, .sa h1, .va h1 {
+	border-bottom: 7px solid #AAA;
+	padding-bottom: 15px;
+}
+
+.su h1 {
+	border-color: #f5ea2e;
+}
+.se h1 {
+	border-color: rgb(212, 121, 30);
+}
+.ta h1 {
+	border-color: #5e0f75;
+}
+.sa h1 {
+	border-color: #33652e;
+}
+.va h1 {
+	border-color: #6e470a;
+}
+
 /*********************** SPECIFIC STYLES ***********************/
 
 
