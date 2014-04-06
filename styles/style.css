@@ -194,6 +194,10 @@ button {
 	display: none;
 }
 
+.filtered .collapsible.default-closed .content {
+	display: block;
+}
+
 .collapsible.default-closed .heading::before {
 	content: url(slide_down.png);
 }
