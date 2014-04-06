@@ -461,6 +461,7 @@
 					step: step,
 					values: [0, 100],
 					slide: function(event, ui) {
+						loadUpdate();
 						$('#' + id + '-label-min').text(valuetransform(ui.values[0]));
 						$('#' + id + '-label-max').text(valuetransform(ui.values[1]));
 					}
