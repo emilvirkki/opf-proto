@@ -244,6 +244,7 @@ button {
 	font-size: 10px;
 	overflow: hidden;
 	text-align: center;
+	cursor: pointer;
 }
 
 .icon-metsa {
