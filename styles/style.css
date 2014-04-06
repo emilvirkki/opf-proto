@@ -568,6 +568,12 @@ input.filter {
 	border-bottom: 1px solid #AAA;
 }
 
+.result.se { /* Eka hakutulos */
+	border-top: 1px solid #AAA;
+	padding-top: 1.5em;
+	margin-top: 1.5em;
+}
+
 .result .icons {
 	float: left;
 	margin-top: 6px;
