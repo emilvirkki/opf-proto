@@ -495,9 +495,14 @@ input.filter {
 	margin-left: -20px;
 }
 
-#searchresults {
+#searchresults, #throbber {
 	width: 69%;
 	float: right;
+}
+
+#throbber {
+	margin-top: 20px;
+	text-align: center;
 }
 
 .word-search {
@@ -570,6 +575,18 @@ input.filter {
 
 .result .name {
 	overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+	#searchbar, #searchresults, #throbber {
+		width: auto;
+		float: none;
+	}
+
+	#searchbar {
+		padding: 1px 20px;
+		width: 100%;
+	}
 }
 
 /*** SUDENPENNUT FRONT PAGE ***/

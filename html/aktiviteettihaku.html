@@ -352,6 +352,7 @@
 
 			</div>
 
+			<div id="throbber" style="display: none"><img src="../images/throbber.gif" alt="Ladataan..."></div>
 			<div id="searchresults">
 				<h2>Hakutulokset</h2>
 				<div class="result se">
@@ -501,6 +502,20 @@
 				];
 				return values[value];
 			});
+
+			var currentTimeout;
+			function loadUpdate() {
+				$('#searchresults').hide();
+				$('#throbber').show();
+				clearTimeout(currentTimeout);
+				currentTimeout = setTimeout(function() {
+					$('#searchresults').show();
+					$('#throbber').hide();
+				}, 1000);
+			}
+
+			$('#searchbar input').on('change', loadUpdate);
+			$('#searchbar input').on('keypress', loadUpdate);
 		</script>
 	</body>
 </html>
