@@ -446,6 +446,17 @@ input.filter {
 	margin-top: 15px;
 }
 
+.fpsearch {
+	clear: both;
+	background: #253764;
+	padding: 2em 0;
+	color: #FFF;
+}
+
+.fpsearch .row2 {
+	margin-top: 0.5em;
+}
+
 @media screen and (max-width: 850px) {
 	.ikbox {
 		width: 33.33%;
