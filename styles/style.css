@@ -646,7 +646,7 @@ input.filter {
 
 .sudenpennutnav {
 	border-color: #f5ea2e;
-	background: #f9faa8;
+	background: #fdfcdd;
 }
 
 #activities {
@@ -750,14 +750,14 @@ input.filter {
 
 .samoajatnav {
 	border-color: #33652e;
-	background: #9BCF95;
+	background: #e8f4e7;
 }
 
 /*** VAELTAJAT FRONT PAGE ***/
 
 .vaeltajatnav {
 	border-color: #6e470a;
-	background: #b6a384;
+	background: #fcf1de;
 }
 
 /***PAUSSIT***/
@@ -1067,7 +1067,7 @@ h2.cleared {
 
 .aktbox.supebox{
 	border-color: #f5ea2e;
-	background: #f9faa8;
+	background: #fdfcdd;
 
 }
 
@@ -1082,7 +1082,7 @@ h2.cleared {
 
 .aktbox.seikkailijabox {
 	border-color: #D4791E;
-	background: #e7a057;
+	background: #fbede0;
 }
 
 
@@ -1097,7 +1097,7 @@ h2.cleared {
 
 .aktbox.tarpojabox {
 	border-color: #5e0f75;
-	background: #be9fc7;
+	background: #f4dffb;
 }
 
 /*** ACTIVITIES TARPOJA ***/
@@ -1156,7 +1156,7 @@ h2.cleared {
 
 .aktbox.samoajabox {
 	border-color: #33652e;
-	background: #9BCF95;
+	background: #e8f4e7;
 }
 
 /***  ACTIVITIES VAELTAJA ***/
@@ -1187,5 +1187,5 @@ h2.cleared {
 
 .aktbox.vaeltajabox {
 	border-color: #6e470a;
-	background: #b6a384;
+	background: #fcf1de;
 }
