@@ -66,6 +66,12 @@ jQuery(function($) {
     _trackEvent('icon', 'click');
   });
 
+  // Jump to activity
+  $('.aktbox select').on('change', function() {
+    _trackEvent('activityselect', 'select', $('h1').text());
+    location = location.href;
+  });
+
 });
 
 
