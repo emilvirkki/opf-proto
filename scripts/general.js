@@ -1,3 +1,7 @@
+function _trackEvent(cat, act, label) {
+  _gaq.push(['_trackEvent', cat, act, label]);
+}
+
 jQuery(function($) {
   $('body').append('<script src="../scripts/tooltipster/js/jquery.tooltipster.min.js"></script>');
   $('head').append('<link rel="stylesheet" href="../scripts/tooltipster/css/tooltipster.css">');
