@@ -1,5 +1,6 @@
 function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
 	function filterBy(text) {
+		_trackEvent('filter', 'filter', $('h1').text());
 		container.find(itemSelector).each(function() {
 			var currentItem = $(this);
 			var filterText = currentItem.find(itemTextSelector).text().toLowerCase();
