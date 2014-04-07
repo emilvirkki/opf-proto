@@ -356,7 +356,7 @@ input.filter {
 }
 
 .palaute {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 50%;
 	width: 9em;
@@ -364,6 +364,7 @@ input.filter {
 	background: #FFF;
 	padding: 0.5em;
 	text-align: center;
+	box-shadow: 0 0 10px #000;
 }
 
 /*********************** SPECIFIC STYLES ***********************/
