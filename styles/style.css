@@ -127,7 +127,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1025px) {
 
 	body {
 		background: #FFF;
@@ -879,10 +879,13 @@ h2.cleared {
 
 .aktheading.main h1, .tasoicon {
 	display: inline-block;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .aktheading.main {
 	border-bottom: 7px solid #5e0f75;
+	padding-bottom: 10px;
 }
 
 
@@ -895,6 +898,10 @@ h2.cleared {
 	display: inline-block;
 	margin: 3px;
 	margin-right: 15px; 
+}
+
+.tasotext .icon, .tasoicon .icon {
+	margin-bottom: -6px;
 }
 
 .tips {
@@ -949,6 +956,14 @@ h2.cleared {
 	border-top: 0px;
 	border-style: solid;
 	overflow: auto;
+}
+
+.aicon .icon {
+	margin-bottom: -6px;
+}
+
+.aicon {
+	padding-bottom: 10px;
 }
 
 .select {
