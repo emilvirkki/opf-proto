@@ -1181,7 +1181,7 @@ h2.cleared {
 
 
 @media screen and (max-width: 750px) {
-	.tasot, .tasot-inner, .taso {
+	.tasot, .tasot-inner, .taso, .taso.esim {
 		display: block;
 		width: auto;
 		margin-bottom: 10px;
