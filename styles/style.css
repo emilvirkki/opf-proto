@@ -995,7 +995,12 @@ h2.cleared {
 	width: 40%;
 }
 
-.jalkibox.tmerkki1 img {
+.jalkibox.majakka {
+	float: left;
+	width: 40%;
+}
+
+.jalkibox.majakka img {
 	width: 30px;
 	}
 
