@@ -355,6 +355,17 @@ input.filter {
 	border-color: #6e470a;
 }
 
+.palaute {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 9em;
+	margin: 0 0 0 -5em;
+	background: #FFF;
+	padding: 0.5em;
+	text-align: center;
+}
+
 /*********************** SPECIFIC STYLES ***********************/
 
 
