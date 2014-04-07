@@ -849,14 +849,14 @@ h2.cleared {
 	margin-bottom: 0px;
 }
 
-.aktheading, .aktheading h1 {
+.aktheading, .aktheading.main h1 {
 	margin: 10px;
 	margin-left: 0;
 	margin-bottom: 1px;
 	border-bottom: 0;
 }
 
-.aktheading h1, .tasoicon {
+.aktheading.main h1, .tasoicon {
 	display: inline-block;
 }
 
