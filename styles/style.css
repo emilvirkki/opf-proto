@@ -194,6 +194,10 @@ button {
 	display: none;
 }
 
+.filtered .collapsible.default-closed .content {
+	display: block;
+}
+
 .collapsible.default-closed .heading::before {
 	content: url(slide_down.png);
 }
@@ -240,6 +244,7 @@ button {
 	font-size: 10px;
 	overflow: hidden;
 	text-align: center;
+	cursor: pointer;
 }
 
 .icon-metsa {
@@ -442,6 +447,17 @@ input.filter {
 	margin-top: 15px;
 }
 
+.fpsearch {
+	clear: both;
+	background: #253764;
+	padding: 2em 0;
+	color: #FFF;
+}
+
+.fpsearch .row2 {
+	margin-top: 0.5em;
+}
+
 @media screen and (max-width: 850px) {
 	.ikbox {
 		width: 33.33%;
@@ -495,14 +511,24 @@ input.filter {
 	margin-left: -20px;
 }
 
-#searchresults {
+#searchresults, #throbber {
 	width: 69%;
 	float: right;
 }
 
+#throbber {
+	margin-top: 20px;
+	text-align: center;
+}
+
 .word-search {
 	width: 98%;
+	margin-bottom: 3px;
+}
+
+.word-checkbox {
 	margin-bottom: 10px;
+	display: block;
 }
 
 .toggle {
@@ -563,6 +589,12 @@ input.filter {
 	border-bottom: 1px solid #AAA;
 }
 
+.result.se { /* Eka hakutulos */
+	border-top: 1px solid #AAA;
+	padding-top: 1.5em;
+	margin-top: 1.5em;
+}
+
 .result .icons {
 	float: left;
 	margin-top: 6px;
@@ -570,6 +602,18 @@ input.filter {
 
 .result .name {
 	overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+	#searchbar, #searchresults, #throbber {
+		width: auto;
+		float: none;
+	}
+
+	#searchbar {
+		padding: 1px 20px;
+		width: 100%;
+	}
 }
 
 /*** SUDENPENNUT FRONT PAGE ***/

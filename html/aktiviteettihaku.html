@@ -46,7 +46,8 @@
 				<h2>Haku</h2>
 
 				<h3>Sanahaku</h3>
-				<input type="text" class="word-search">
+				<input type="text" class="word-search" placeholder="Hakusanat">
+				<label class="word-checkbox"><input type="checkbox" checked> Vain aktiviteettien nimistä</label>
 
 				<div class="collapsible default-closed">
 					<h3 class="heading">Ikäkausi</h3>
@@ -352,8 +353,10 @@
 
 			</div>
 
+			<div id="throbber" style="display: none"><img src="../images/throbber.gif" alt="Ladataan..."></div>
 			<div id="searchresults">
 				<h2>Hakutulokset</h2>
+				<p>Haulla löytyi <strong>3</strong> aktiviteettia.</p>
 				<div class="result se">
 					<div class="breadcrumb">
 						<a href="aktiviteetit-seikkailijat.html">Seikkailijat</a> &gt;
@@ -460,6 +463,7 @@
 					step: step,
 					values: [0, 100],
 					slide: function(event, ui) {
+						loadUpdate();
 						$('#' + id + '-label-min').text(valuetransform(ui.values[0]));
 						$('#' + id + '-label-max').text(valuetransform(ui.values[1]));
 					}
@@ -501,6 +505,20 @@
 				];
 				return values[value];
 			});
+
+			var currentTimeout;
+			function loadUpdate() {
+				$('#searchresults').hide();
+				$('#throbber').show();
+				clearTimeout(currentTimeout);
+				currentTimeout = setTimeout(function() {
+					$('#searchresults').show();
+					$('#throbber').hide();
+				}, 1000);
+			}
+
+			$('#searchbar input').on('change', loadUpdate);
+			$('#searchbar input').on('keypress', loadUpdate);
 		</script>
 	</body>
 </html>
