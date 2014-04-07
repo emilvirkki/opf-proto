@@ -523,7 +523,12 @@ input.filter {
 
 .word-search {
 	width: 98%;
+	margin-bottom: 3px;
+}
+
+.word-checkbox {
 	margin-bottom: 10px;
+	display: block;
 }
 
 .toggle {
