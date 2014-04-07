@@ -389,6 +389,10 @@ input.filter {
 	line-height: 250px;
 }
 
+#slider, #findbox {
+	margin-top: 40px;
+}
+
 #tapaht, #ajankoht {
 	width: 47%;
 	float: left;
@@ -402,6 +406,7 @@ input.filter {
 	padding: 0;
 	overflow: auto;
 	text-align: center;
+	max-width: 90%;
 }
 
 .front-partiokasvatus {
