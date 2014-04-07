@@ -1149,6 +1149,10 @@ h2.cleared {
 	background: #CCC;
 }
 
+.taso.esim{
+	width: 17%;
+}
+
 .taso .taso-left {
 	float: left;
 }
@@ -1164,6 +1168,10 @@ h2.cleared {
 .taso-nimi, .taso-ikonit, .taso-kuvaus {
 	display: block;
 	margin-left: 30px;
+}
+
+.esim .taso-nimi, .esim .taso-kuvaus {
+	margin-left: 0px;
 }
 
 
