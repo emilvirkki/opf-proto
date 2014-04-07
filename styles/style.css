@@ -584,15 +584,15 @@ input.filter {
 }
 
 .result {
-	padding-bottom: 1.5em;
+	background: #f4dffb;
+	border: 2px solid #5e0f75;
 	margin-bottom: 1.5em;
-	border-bottom: 1px solid #AAA;
+	padding: 10px;
 }
 
-.result.se { /* Eka hakutulos */
-	border-top: 1px solid #AAA;
-	padding-top: 1.5em;
-	margin-top: 1.5em;
+.result.se {
+	border-color: #D4791E;
+	background: #fbede0;
 }
 
 .result .icons {
@@ -646,7 +646,7 @@ input.filter {
 
 .sudenpennutnav {
 	border-color: #f5ea2e;
-	background: #f9faa8;
+	background: #fdfcdd;
 }
 
 #activities {
@@ -751,14 +751,14 @@ input.filter {
 
 .samoajatnav {
 	border-color: #33652e;
-	background: #9BCF95;
+	background: #e8f4e7;
 }
 
 /*** VAELTAJAT FRONT PAGE ***/
 
 .vaeltajatnav {
 	border-color: #6e470a;
-	background: #b6a384;
+	background: #fcf1de;
 }
 
 /***PAUSSIT***/
@@ -849,14 +849,14 @@ h2.cleared {
 	margin-bottom: 0px;
 }
 
-.aktheading, .aktheading h1 {
+.aktheading, .aktheading.main h1 {
 	margin: 10px;
 	margin-left: 0;
 	margin-bottom: 1px;
 	border-bottom: 0;
 }
 
-.aktheading h1, .tasoicon {
+.aktheading.main h1, .tasoicon {
 	display: inline-block;
 }
 
@@ -1067,7 +1067,7 @@ h2.cleared {
 
 .aktbox.supebox{
 	border-color: #f5ea2e;
-	background: #f9faa8;
+	background: #fdfcdd;
 
 }
 
@@ -1082,7 +1082,7 @@ h2.cleared {
 
 .aktbox.seikkailijabox {
 	border-color: #D4791E;
-	background: #e7a057;
+	background: #fbede0;
 }
 
 .iknav.seikkailijabox {
@@ -1102,7 +1102,7 @@ h2.cleared {
 
 .aktbox.tarpojabox {
 	border-color: #5e0f75;
-	background: #be9fc7;
+	background: #f4dffb;
 }
 
 .iknav.tarpojabox {
@@ -1167,7 +1167,7 @@ h2.cleared {
 
 .aktbox.samoajabox {
 	border-color: #33652e;
-	background: #9BCF95;
+	background: #e8f4e7;
 }
 
 /***  ACTIVITIES VAELTAJA ***/
@@ -1198,5 +1198,5 @@ h2.cleared {
 
 .aktbox.vaeltajabox {
 	border-color: #6e470a;
-	background: #b6a384;
+	background: #fcf1de;
 }
