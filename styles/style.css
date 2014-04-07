@@ -996,8 +996,7 @@ h2.cleared {
 }
 
 .jalkibox.majakka {
-	float: left;
-	width: 40%;
+	text-align: center;
 }
 
 .jalkibox.majakka img {
