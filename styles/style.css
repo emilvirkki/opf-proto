@@ -1104,7 +1104,7 @@ h2.cleared {
 
 .iknav.seikkailijabox {
 	border-color: #D4791E;
-	background: #e7a057;
+	background: #fbede0;
 }
 
 
@@ -1124,7 +1124,7 @@ h2.cleared {
 
 .iknav.tarpojabox {
 	border-color: #5e0f75;
-	background: #be9fc7;
+	background: #f4dffb;
 }
 
 /*** ACTIVITIES TARPOJA ***/
@@ -1154,6 +1154,10 @@ h2.cleared {
 	background: #CCC;
 }
 
+.taso.esim{
+	width: 17%;
+}
+
 .taso .taso-left {
 	float: left;
 }
@@ -1169,6 +1173,10 @@ h2.cleared {
 .taso-nimi, .taso-ikonit, .taso-kuvaus {
 	display: block;
 	margin-left: 30px;
+}
+
+.esim .taso-nimi, .esim .taso-kuvaus {
+	margin-left: 0px;
 }
 
 
