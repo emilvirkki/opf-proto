@@ -35,7 +35,7 @@ jQuery(function($) {
 
   var furl = 'https://docs.google.com/forms/d/1LujXfArau-dqwFI0jkpR9wW6v4VcbeinNAJiXXs_arA/viewform';
   var flink = $('<a href="' + furl + '" target="_blank" class="palaute">Anna palautetta</a>').on('click', function() {
-    _trackEvent();
+    _trackEvent('feedback', 'click', window.location.href);
   });
   $('body').append(flink);
   
