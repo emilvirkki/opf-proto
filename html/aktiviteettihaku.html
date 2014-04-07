@@ -508,6 +508,7 @@
 
 			var currentTimeout;
 			function loadUpdate() {
+				_trackEvent('activitysearch', 'search');
 				$('#searchresults').hide();
 				$('#throbber').show();
 				clearTimeout(currentTimeout);

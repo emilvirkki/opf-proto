@@ -4,6 +4,7 @@ jQuery(function($) {
 
 	$('.collapsible .heading').click(function() {
 		$(this).parent().find('.content').slideToggle(function() {
+      _trackEvent('collapsible', 'toggle', $('h1').text());
 			$(this).parent().toggleClass('collapsed');
 		});
 
@@ -39,6 +40,28 @@ jQuery(function($) {
   });
   $('body').append(flink);
   
+  //Event tracking
+
+  $('#nav a').on('click', function() {
+    _trackEvent('nav', 'click', $(this).text());
+  });
+
+  $('#main .front a').on('click', function() {
+    _trackEvent('fpbox', 'click', $(this).text());
+  });
+
+  $('#main .front .button').on('click', function() {
+    _trackEvent('fpbox', 'search', $(this).value());
+  });
+
+  $('.sudenpennutnav').on('click', function() {
+    _trackEvent('sudenpennutnav', 'click', $(this).value());
+  });
+
+  $('.icon').on('click', function() {
+    _trackEvent('icon', 'click');
+  });
+
 });
 
 
