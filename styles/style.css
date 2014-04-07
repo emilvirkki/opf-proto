@@ -1152,6 +1152,10 @@ h2.cleared {
 
 /*** ACTIVITIES TARPOJA ***/
 
+.all-activities.tarpojat {
+	clear: both;
+}
+
 .tasot {
 	display: table;
 }

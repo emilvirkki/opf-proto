@@ -5,6 +5,9 @@
 		<title>Pohjoinen | Toimintasivusto</title>
 		<link rel="stylesheet" href="../styles/style.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		.filter { clear: both; display: block;}
+		</style>
 	</head>
 	<body class="se">
 		<div id="portalbar"></div>
@@ -44,9 +47,11 @@
 		<p>Tervetuloa-vaiheen jälkeen jatketaan seikkailua kohti pohjoista. Ensimmäisen syksyn tavoitteena on harjoitella luonnossa selviytymisen taitoja siten, että syksyn toisella retkellä joukkue voi jo mennä yhden yön metsäretkelle ja kaikilla on siellä mukava ja turvallinen olla.</p>
 		<p>Tavoite: Seikkailija oppii luonnossa liikkujan tarvitsemia perustaitoja.</p><br><br>
 		
+		<div class="firstheading"><h2>Aktiviteetit</h2></div>
+		<br>
+		<div class="all-activities">
 		<div id="activitiesleft">
 		
-			<div class="firstheading"><h2>Aktiviteetit</h2></div>
 			<div>
 
 				<div class="activity actsud nopic">
@@ -317,11 +322,16 @@
 			
 				</div>
 			</div>
+			</div>
 
 
 		<!-- ÄLÄ MUOKKAA TÄSTÄ ALAS  -->
 		</div>
 		<script src="../scripts/jquery.js"></script>
 		<script src="../scripts/general.js"></script>
+		<script src="../scripts/filter.js"></script>
+		<script>
+			opfFilter($('.all-activities'), '.activity', 'a', 'Suodata aktiviteetteja...');
+		</script>
 	</body>
 </html>

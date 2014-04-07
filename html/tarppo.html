@@ -58,7 +58,7 @@
 
 			</p>
 
-			<div class="jalkibox tmerkki1">
+			<div style="text-align: center;">
 				<a href="majakka.html">
 					<img src="../images/majakka.png" width="30" alt="">
 					<br><a href="majakka.html">Leiri-majakka</a> 
@@ -72,9 +72,9 @@
 		</p>
 
 
-			
+		<div class="all-activities tarpojat">
 
-		<div class="collapsible" style="clear: both">
+		<div class="collapsible">
 			<h2 class="heading"><a name="suuntaus">Suuntaus</a></h2>
 			<div class="content">
 				
@@ -2254,14 +2254,18 @@
 					</div>
 				</div> <!-- /Aktiviteetti -->
 
-
 		
 			</div>
+		</div>
 		</div>
 
 		<!-- ÄLÄ MUOKKAA TÄSTÄ ALAS  -->
 		</div>
 		<script src="../scripts/jquery.js"></script>
 		<script src="../scripts/general.js"></script>
+		<script src="../scripts/filter.js"></script>
+		<script>
+			opfFilter($('.all-activities'), '.tarpoja-aktiviteetti', 'a, h3', 'Suodata aktiviteetteja...');
+		</script>
 	</body>
 </html>
