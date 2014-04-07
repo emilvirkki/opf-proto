@@ -584,15 +584,15 @@ input.filter {
 }
 
 .result {
-	padding-bottom: 1.5em;
+	background: #f4dffb;
+	border: 2px solid #5e0f75;
 	margin-bottom: 1.5em;
-	border-bottom: 1px solid #AAA;
+	padding: 10px;
 }
 
-.result.se { /* Eka hakutulos */
-	border-top: 1px solid #AAA;
-	padding-top: 1.5em;
-	margin-top: 1.5em;
+.result.se {
+	border-color: #D4791E;
+	background: #fbede0;
 }
 
 .result .icons {
