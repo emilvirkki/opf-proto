@@ -734,6 +734,7 @@ input.filter {
 .jalkipic {
 	float: left;
 	width: 100px;
+	margin-right: 10px;
 }
 
 #ikcontent {
@@ -910,7 +911,6 @@ h2.cleared {
 .aktbox {
 	width: 24.9%;
 	float: right;
-	clear: right;
 }
 
 .aktbox.yla{
@@ -1085,6 +1085,11 @@ h2.cleared {
 	background: #fbede0;
 }
 
+.iknav.seikkailijabox {
+	border-color: #D4791E;
+	background: #e7a057;
+}
+
 
 /*** ACTIVITY TARPOJA***/
 
@@ -1098,6 +1103,11 @@ h2.cleared {
 .aktbox.tarpojabox {
 	border-color: #5e0f75;
 	background: #f4dffb;
+}
+
+.iknav.tarpojabox {
+	border-color: #5e0f75;
+	background: #be9fc7;
 }
 
 /*** ACTIVITIES TARPOJA ***/
@@ -1143,6 +1153,7 @@ h2.cleared {
 	display: block;
 	margin-left: 30px;
 }
+
 
 @media screen and (max-width: 750px) {
 	.tasot, .tasot-inner, .taso {
