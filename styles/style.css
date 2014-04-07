@@ -84,6 +84,10 @@ h3 {
 	margin-top: 2px;
 }
 
+a img {
+	border: 0;
+}
+
 button {
 	font-size: 14px;
 	color: white;
