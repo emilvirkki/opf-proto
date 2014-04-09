@@ -1061,6 +1061,7 @@ h2.cleared {
 	.select {
 		width: 80%;
 	}
+
 }	
 
 .descript {
@@ -1122,6 +1123,7 @@ h2.cleared {
 	border: 2px;
 	border-color: #D4791E;
 	border-style: solid;
+	overflow: auto;
 }
 
 .aktbox.seikkailijabox {
@@ -1152,6 +1154,10 @@ h2.cleared {
 .iknav.tarpojabox {
 	border-color: #5e0f75;
 	background: #f4dffb;
+}
+
+.tarpojapic img {
+	width: 100%;
 }
 
 /*** ACTIVITIES TARPOJA ***/
