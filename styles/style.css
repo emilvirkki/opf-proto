@@ -1007,6 +1007,18 @@ h2.cleared {
 	width: 50px;
 	}
 
+.thumbimage {
+	float: left;
+	margin-left: 25%;
+	clear: both;
+}
+
+.thumbnumber {
+	float: left;
+	margin: 15px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+}
 
 @media screen and (max-width: 700px) {
 	.aktbox {
@@ -1047,6 +1059,10 @@ h2.cleared {
 		margin-top: 0px;
 	}
 
+	.thumbimage {
+		margin-left: 40%;
+	}
+
 	.select {
 		width: 40%;
 	}
@@ -1056,12 +1072,6 @@ h2.cleared {
 		width: 40%;
 	}
 }
-
-@media screen and (max-width: 550px) {
-	.select {
-		width: 80%;
-	}
-}	
 
 .descript {
 	font-style: italic;
@@ -1088,24 +1098,22 @@ h2.cleared {
 	clear: both;
 }
 
-.thumbimage {
-	float: left;
-	margin-left: 25%;
-	clear: both;
-}
-
-.thumbnumber {
-	float: left;
-	margin: 15px;
-	margin-top: 7px;
-	margin-bottom: 0px;
-}
-
 .addtip {
 	width: 69.9%;
 	float: left;
 	margin: 15px;
 }
+
+@media screen and (max-width: 550px) {
+	.select {
+		width: 80%;
+	}
+
+	.tipinfo, .tipcontent, .thumbimage {
+		width: auto;
+		margin: 0;
+	}
+}	
 
 /*** ACTIVITY SUDENPENTU***/
 
@@ -1236,6 +1244,10 @@ h2.cleared {
 .vaeltaja-aihealueet a {
 	display: block;
 	padding: 5px 0;
+}
+
+.all-activities {
+	overflow: auto;
 }
 
 #vaeltajat-kaikki {
