@@ -10,12 +10,15 @@ function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
 				currentItem.addClass('hidden');
 			}
 		});
-		container.addClass('filtered')
+		container.addClass('filtered');
 	}
 
-	var field = $('<input type="text" placeholder="' + fieldText + '" class="filter">');
+	var field = $('<input type="text" value="' + fieldText + '" class="filter">');
 	field.on('keyup', function() {
 		filterBy($(this).val());
+	});
+	field.on('focus', function() {
+		if($(this).val() == fieldText) $(this).val('');
 	});
 	container.prepend(field);
 }
