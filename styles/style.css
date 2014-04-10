@@ -924,6 +924,15 @@ h2.cleared {
 	clear: both;
 }
 
+.tip.sptip {
+	background: #CCC;
+	border-color: #999;
+}
+
+.sp img {
+	width: 80px;
+}
+
 .tipinfo {
 	width: 19%;
 	float: left;
