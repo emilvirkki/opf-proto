@@ -38,7 +38,7 @@
 			<a href="sudenpennut.html">Sudenpennut</a> /
 			Sudenpentujen ohjelma
 		</div>
-		<div id="content">
+		<div id="content" class="supefiltered">
 		<h1>Sudenpentujen ohjelma</h1>
 		
 		<div class="iknav sudenpennutnav">
@@ -65,7 +65,8 @@
 		<p>Jäljet on sijoitettu neljään kasvatustavoitteiden mukaiseen osioon. Kustakin osiosta tulee tehdä vähintään yksi jälki toimintavuoden aikana.</p>
 		</div>
 		
-		<div class="all-activities">
+		<h2>Jäljet</h2>
+		<div class="supefiltered"></div><!-- filter placeholder -->
 		
 		<div id="activities" class="collapsible">
 		
@@ -329,7 +330,7 @@
 			</div>
 		</div>
 
-		</div> <!-- .all-activities -->
+
 		
 		<div id="nav2">
 			<ul>
@@ -358,7 +359,7 @@
 		<script src="../scripts/general.js"></script>
 		<script src="../scripts/filter.js"></script>
 		<script>
-			opfFilter($('.all-activities'), '.activity', 'a', 'Suodata jälkiä...');
+			opfFilter($('.supefiltered'), '.activity', 'a', 'Suodata jälkiä...');
 		</script>
 	</body>
 </html>

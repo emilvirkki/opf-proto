@@ -641,6 +641,10 @@ input.filter {
 
 /*** SUDENPENNUT FRONT PAGE ***/
 
+#content > .filter {
+	display: none;
+}
+
 .centered{
 	text-align: center;
 	margin-bottom: 15px;
