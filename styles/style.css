@@ -187,6 +187,10 @@ button {
 	overflow: auto;
 }
 
+.collapsible .heading, .collapsible .heading:before {
+	cursor: pointer;
+}
+
 .collapsible .heading:before {
 	content: url(slide_up.png);
 	margin-right: 5px;
