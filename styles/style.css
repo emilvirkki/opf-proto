@@ -342,10 +342,18 @@ button {
 }
 
 input.filter {
-	margin: 0 0 2em 0;
+	margin: 0 10px 2em 0;
 }
 
-.hidden {
+.tarp-filters {
+	display: inline-block;
+}
+
+.tarp-filters label {
+	margin-right: 10px;
+}
+
+.hidden, .hidden-by-checkbox {
 	display: none;
 }
 
