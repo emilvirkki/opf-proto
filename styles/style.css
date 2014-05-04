@@ -968,6 +968,14 @@ h2.cleared {
 	margin-right: 10px;
 }
 
+.tipcontent.alternative {
+	display: none;
+}
+
+.show-more, .show-less {
+	display: inline-block;
+}
+
 .aktbox {
 	width: 24.9%;
 	float: right;

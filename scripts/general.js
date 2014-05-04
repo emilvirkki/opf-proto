@@ -14,6 +14,17 @@ jQuery(function($) {
 
 	});
 
+  $('.show-more').on('click', function() {
+    $('.tipcontent.default').hide();
+    $('.tipcontent.alternative').show();
+    return false;
+  });
+  $('.show-less').on('click', function() {
+    $('.tipcontent.alternative').hide();
+    $('.tipcontent.default').show();
+    return false;
+  });
+
   function setTitles() {
   $('.icon-metsa').attr('title', 'Retkellä');
   $('.icon-retki').attr('title', 'Retkellä');
@@ -21,7 +32,7 @@ jQuery(function($) {
   $('.icon-leiri').attr('title', 'Leirillä');
   $('.icon-vene').attr('title', 'Veneessä');
   $('.icon-ulkona').attr('title', 'Ulkona');
-  $('.icon-kaupunki').attr('title', 'PKaupungissa');
+  $('.icon-kaupunki').attr('title', 'Kaupungissa');
   $('.icon-1h').attr('title', 'Yksin');
   $('.icon-1tai2h').attr('title', 'Yksin tai kaksin');
   $('.icon-ryhma').attr('title', 'Vartiossa');
