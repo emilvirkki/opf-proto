@@ -187,6 +187,11 @@ button {
 	overflow: auto;
 }
 
+.collapsible .heading {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+}
+
 .collapsible .heading, .collapsible .heading:before {
 	cursor: pointer;
 }
