@@ -558,6 +558,15 @@ input.filter {
 	display: block;
 }
 
+.collapsible.agegroup {
+	clear: both;
+	margin-top: 15px;
+}
+
+.collapsible.properties .content {
+	padding-bottom: 15px;
+}
+
 .toggle {
 	background: 50% 100% no-repeat url(arrow_down.png);
 	display: inline-block;
