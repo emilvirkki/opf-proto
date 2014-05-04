@@ -20,5 +20,8 @@ function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
 	field.on('focus', function() {
 		if($(this).val() == fieldText) $(this).val('');
 	});
+	field.on('blur', function() {
+		if($(this).val() == '') $(this).val(fieldText);
+	});
 	container.prepend(field);
 }
