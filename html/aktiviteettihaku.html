@@ -271,7 +271,7 @@
 						<h4>Valmisteluaika</h4>
 						<div id="sl-vaika"></div>
 						<div class="labels">
-							<span id="sl-vaika-label-min">15 min</span>
+							<span id="sl-vaika-label-min">ei valmistelua</span>
 							-
 							<span id="sl-vaika-label-max">kauemmin</span>
 						</div>
@@ -478,6 +478,7 @@
 					'45 min',
 					'tunti',
 					'1½ tuntia',
+					'puoli päivää',
 					'koko päivä',
 					'viikonloppu',
 					'kauemmin'
@@ -485,7 +486,7 @@
 				return values[value];
 			});
 
-			makeSlider('sl-vaika', 6, 1, function(value) {
+			makeSlider('sl-vaika', 5, 1, function(value) {
 				var values = [
 					'ei valmistelua',
 					'15 min',
