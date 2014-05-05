@@ -1,5 +1,6 @@
-function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
+function opfFilter(container, itemSelector, itemTextSelector, fieldText, subContainerSelector, noMatchText) {
 	function filterBy(text) {
+		$('.filter-no-match').remove();
 		_trackEvent('filter', 'filter', $('h1').text());
 		container.find(itemSelector).each(function() {
 			var currentItem = $(this);
@@ -10,6 +11,13 @@ function opfFilter(container, itemSelector, itemTextSelector, fieldText) {
 				currentItem.addClass('hidden');
 			}
 		});
+		if(subContainerSelector) { //If not given, disable this functionality
+			container.find(subContainerSelector).each(function() {
+				if($(this).find(itemSelector).filter(':not(.hidden)').length == 0) {
+					$(this).append('<p class="filter-no-match">' + noMatchText + '</p>');
+				}
+			});
+		}
 		container.addClass('filtered');
 	}
 
