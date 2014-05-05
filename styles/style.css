@@ -444,6 +444,16 @@ input.filter {
 	float: left;
 }
 
+.ilmansuuntaimg {
+	float: left;
+	margin: 5px;
+
+}
+
+.ilmansuuntatxt {
+	text-align: center;
+}
+
 #main.front a {
 	color: #FFF;
 }
