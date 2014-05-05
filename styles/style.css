@@ -343,6 +343,7 @@ button {
 
 input.filter {
 	margin: 0 10px 2em 0;
+	width: 14em;
 }
 
 .tarp-filters {
