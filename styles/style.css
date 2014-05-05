@@ -654,6 +654,11 @@ input.filter {
 	overflow: auto;
 }
 
+.result .icon-taso {
+	float: left;
+	margin: 8px 7px 0 0;
+}
+
 @media screen and (max-width: 600px) {
 	#searchbar, #searchresults, #throbber {
 		width: auto;
