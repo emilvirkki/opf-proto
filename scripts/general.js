@@ -36,6 +36,8 @@ jQuery(function($) {
       +'</form>'
     );
   }
+  //...and remove it from the nav
+  $('#nav2 li').last().hide();
 
   function setTitles() {
   $('.icon-metsa').attr('title', 'Retkellä');
