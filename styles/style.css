@@ -391,6 +391,29 @@ input.filter {
 	box-shadow: 0 0 10px #000;
 }
 
+.nav-activitysearch {
+	width: 25%;
+	padding: 1em;
+	color: #FFF;
+	background: #253764;
+	text-align: center;
+}
+
+.nav-activitysearch a {
+	color: #FFF;
+}
+
+.nav-activitysearch span {
+	display: block;
+	margin: 0 0 6px;
+	font-weight: bold;
+}
+
+.nav-activitysearch small {
+	display: block;
+	margin: 10px 0 0;
+}
+
 /*********************** SPECIFIC STYLES ***********************/
 
 
