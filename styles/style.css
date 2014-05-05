@@ -812,6 +812,11 @@ input.filter {
 	background: #e8f4e7;
 }
 
+.rightimage {
+	float: right;
+	margin: 10px;
+}
+
 /*** VAELTAJAT FRONT PAGE ***/
 
 .vaeltajatnav {
