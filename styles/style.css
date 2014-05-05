@@ -542,6 +542,28 @@ input.filter {
 		width: 100%;
 	}
 }
+
+.wikipediabox {
+	width: auto;
+	float: none;
+	max-width: 99%;
+	background: #EEE;
+	border: 1px solid #AAA;
+	padding: 1px 0;
+	margin: 1em 0;
+	display: inline-block;
+}
+
+.wikipediabox ul {
+	margin: 1.3em 1.5em;
+	padding: 0;
+}
+
+.wikipediabox li {
+	margin: 0.2em 0 0.2em 1em;
+	padding: 0;
+}
+
 /***  AKTIVITEETTIHAKU ***/
 
 #searchbar {
