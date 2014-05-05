@@ -834,6 +834,11 @@ input.filter {
 	background: #e8f4e7;
 }
 
+.rightimage {
+	float: right;
+	margin: 10px;
+}
+
 /*** VAELTAJAT FRONT PAGE ***/
 
 .vaeltajatnav {
@@ -841,7 +846,20 @@ input.filter {
 	background: #fcf1de;
 }
 
+/***MAJAKKA***/
+
+.majakka {
+	float: left;
+	width: 60px;
+	margin: 15px;
+}
+
+.majakkateksti {
+	float: left;
+	width: 85%;
+}
 /***PAUSSIT***/
+
 
 .paussi {
 	overflow: auto;
