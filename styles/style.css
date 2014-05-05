@@ -819,7 +819,20 @@ input.filter {
 	background: #fcf1de;
 }
 
+/***MAJAKKA***/
+
+.majakka {
+	float: left;
+	width: 60px;
+	margin: 15px;
+}
+
+.majakkateksti {
+	float: left;
+	width: 85%;
+}
 /***PAUSSIT***/
+
 
 .paussi {
 	overflow: auto;
