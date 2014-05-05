@@ -26,7 +26,6 @@ jQuery(function($) {
   });
 
   //Add activity search under the 2nd nav
-  
   if(!('opfHideNavSearch' in window) || opfHideNavSearch != 'yes') {
     $('#nav2').after(
        '<form class="nav-activitysearch" action="aktiviteettihaku.html">'
