@@ -2198,7 +2198,7 @@
 		<script src="../scripts/general.js"></script>
 		<script src="../scripts/filter.js"></script>
 		<script>
-			opfFilter($('.all-activities'), '.tarpoja-aktiviteetti', 'a, h3', 'Etsi aktiviteetin nimellä...');
+			opfFilter($('.all-activities'), '.tarpoja-aktiviteetti', 'a, h3', 'Etsi aktiviteetin nimellä...', '.content', 'Ei hakuasi vastaavia aktiviteetteja.');
 
 			var opfTarpFilters = $('<div class="tarp-filters"></div>');
 			opfTarpFilters.append('<label><input type="checkbox" checked id="show-pakolliset"> Pakolliset</label>');
@@ -2218,7 +2218,7 @@
 					$('.aktiviteetti-vapaavalintainen').addClass('hidden-by-checkbox');
 				}
 
-
+				opfShowNoMatchText();
 			});
 		</script>
 	</body>

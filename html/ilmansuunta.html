@@ -49,6 +49,7 @@
 		<div class="firstheading"><h2>Aktiviteetit</h2></div>
 		<br>
 		<div class="all-activities">
+		<div class="filter-wrapper">
 		<div id="activitiesleft">
 		
 			<div>
@@ -322,6 +323,7 @@
 				</div>
 			</div>
 			</div>
+			</div>
 
 
 		<!-- ÄLÄ MUOKKAA TÄSTÄ ALAS  -->
@@ -330,7 +332,7 @@
 		<script src="../scripts/general.js"></script>
 		<script src="../scripts/filter.js"></script>
 		<script>
-			opfFilter($('.all-activities'), '.activity', 'a', 'Etsi aktiviteetin nimellä...');
+			opfFilter($('.all-activities'), '.activity', 'a', 'Etsi aktiviteetin nimellä...', '.filter-wrapper', 'Ei hakuasi vastaavia jälkiä.');
 		</script>
 	</body>
 </html>
