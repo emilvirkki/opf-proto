@@ -1063,6 +1063,15 @@ h2.cleared {
 	display: inline-block;
 }
 
+#show-more-tips {
+	margin-left: 15px;
+	display: block;
+}
+
+.more-tips {
+	display: none;
+}
+
 .aktbox {
 	width: 24.9%;
 	float: right;
@@ -1109,7 +1118,7 @@ h2.cleared {
 
 .tipheading {
 	float: left;
-	width: 20%;
+	width: 21%;
 }
 
 .jalkibox.tmerkki1 {
