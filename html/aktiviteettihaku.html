@@ -386,8 +386,10 @@
 						Kerromme itsestämme
 					</div>
 					<div class="name">
+						<div class="res-info">
 						<span class="icon icon-taso">2</span>
 						<h3><a href="aktiviteetti-tarpojat.html">Esittelemme lippukuntaamme</a></h3>
+						</div>
 						<div class="icons">
 							<span class="icon icon-pakollinen"></span>
 							<span class="icon icon-kolo"></span>
@@ -411,8 +413,10 @@
 						Teemavaellus
 					</div>
 					<div class="name">
+						<div class="res-info">
 						<span class="icon icon-taso">4</span>
 						<h3><a href="aktiviteetti-tarpojat.html">Osallistumme lumiretkelle</a></h3>
+						</div>
 						<div class="icons">
 							<span class="icon icon-pakollinen"></span>
 							<span class="icon icon-ulkona"></span>
@@ -439,6 +443,9 @@
 		<script src="../scripts/jquery-tree/jquery.tree.min.js"></script>
 		<script>
 			$('#tree li').addClass('collapsed');
+			//$('#tree li').each(function() {
+			//	$(this).html('<label>' + $(this).html() + '</label>');
+			//});
 			$('#tree li').prepend('<span class="toggle"> </span><input type="checkbox">');
 			$('#tree .toggle').click(function() {
 				if($(this).parent().hasClass('collapsed')) {
@@ -522,6 +529,12 @@
 					$('#throbber').hide();
 				}, 1000);
 			}
+
+			$('#searchbar li span').click(function() {
+				var cb = $(this).parent().find('input');
+				cb.prop('checked', !cb.prop('checked'));
+				loadUpdate();
+			});
 
 			$('#searchbar input').on('change', loadUpdate);
 			$('#searchbar input').on('keypress', loadUpdate);

@@ -121,6 +121,29 @@ button {
 	margin-bottom: 10px;
 }
 
+.nav-activitysearch {
+	width: 25%;
+	padding: 1em;
+	color: #FFF;
+	background: #253764;
+	text-align: center;
+}
+
+.nav-activitysearch a {
+	color: #FFF;
+}
+
+.nav-activitysearch span {
+	display: block;
+	margin: 0 0 6px;
+	font-weight: bold;
+}
+
+.nav-activitysearch small {
+	display: block;
+	margin: 10px 0 0;
+}
+
 @media screen and (max-width: 1100px) {
 	#nav {
 		font-size: 14px;
@@ -169,7 +192,7 @@ button {
 }
 
 @media screen and (max-width: 900px) {
-	#nav2, #content {
+	#nav2, #content, .nav-activitysearch {
 		width: auto;
 		float: none;
 		max-width: 100%;
@@ -219,6 +242,10 @@ button {
 
 .collapsible.default-closed.collapsed .heading:before {
 	content: url(slide_up.png);
+}
+
+.filter-no-match {
+	font-style: italic;
 }
 
 @media screen and (max-width: 600px) {
@@ -389,29 +416,6 @@ input.filter {
 	padding: 0.5em;
 	text-align: center;
 	box-shadow: 0 0 10px #000;
-}
-
-.nav-activitysearch {
-	width: 25%;
-	padding: 1em;
-	color: #FFF;
-	background: #253764;
-	text-align: center;
-}
-
-.nav-activitysearch a {
-	color: #FFF;
-}
-
-.nav-activitysearch span {
-	display: block;
-	margin: 0 0 6px;
-	font-weight: bold;
-}
-
-.nav-activitysearch small {
-	display: block;
-	margin: 10px 0 0;
 }
 
 /*********************** SPECIFIC STYLES ***********************/
@@ -607,6 +611,11 @@ input.filter {
 	margin-left: -20px;
 }
 
+#searchbar li {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
 #searchresults, #throbber {
 	width: 69%;
 	float: right;
@@ -641,6 +650,7 @@ input.filter {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
+	cursor: pointer;
 }
 
 .collapsed .toggle {
@@ -723,6 +733,19 @@ input.filter {
 	#searchbar {
 		padding: 1px 20px;
 		width: 100%;
+	}
+
+	.result .name h3 {
+		display: inline;
+		float: none;
+	}
+
+	.res-info {
+		overflow: auto;
+		padding-top: 10px;
+	}
+	.res-info .icon {
+		margin-top: -2px;
 	}
 }
 
